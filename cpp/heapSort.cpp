@@ -69,10 +69,10 @@ void printArray(int arr[], int N)
 }
 
 // Driver's code
-int main()
+int main(int argc, char** argv)
 {
 	srand(time(NULL));
-	int N = 10000;
+	int N = atoi(argv[1]);
 	int arr[N] = {};
 	
 	for(int i = 0; i < N; i++) {
