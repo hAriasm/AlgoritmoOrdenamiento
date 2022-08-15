@@ -74,29 +74,45 @@ int main(int argc, char** argv)
 	srand(time(NULL));
 	int N = atoi(argv[1]);
 	int arr[N] = {};
+
+	string filename(argv[2]);
+    int number;
+
+	ifstream input_file(filename);
+    if (!input_file.is_open()) {
+        cerr << "Could not open the file - '"
+             << filename << "'" << endl;
+        return EXIT_FAILURE;
+    }
+
+    int i = 0;
+
+	while (input_file >> number) {
+        arr[i++] = number;
+    }
+    input_file.close();
 	
-	for(int i = 0; i < N; i++) {
-		arr[i] = rand()%N;
-	}
+	// for(int i = 0; i < N; i++) {
+	// 	arr[i] = rand()%N;
+	// }
 
 	// printArray(arr, N);
 
 	auto begin = chrono::high_resolution_clock::now();
 
-	// Function call
 	heapSort(arr, N);
 	
 	auto end = chrono::high_resolution_clock::now();
-	double total_time = chrono::duration_cast<std::chrono::nanoseconds>(end - begin).count();
+	double elapsed = chrono::duration_cast<std::chrono::nanoseconds>(end - begin).count();
 
-	total_time *= 1e-6;
+	elapsed *= 1e-6;
 
 
 	// cout << endl; 
 	// cout << "Sorted array is \n";
 	// printArray(arr, N);
 
-	cout << "Tiempo total: " << fixed << total_time << setprecision(9);
+	cout << "Tiempo total: " << fixed << elapsed << setprecision(9);
 	
-	return 0;
+	return EXIT_SUCCESS;
 }
