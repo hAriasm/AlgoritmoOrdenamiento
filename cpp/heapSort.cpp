@@ -70,14 +70,8 @@ void printArray(int arr[], int N)
 	cout << "\n";
 }
 
-// Driver's code
-int main(int argc, char **argv)
-{
-	srand(time(NULL));
-	int N = atoi(argv[1]);
-	int arr[N] = {};
-
-	string filename(argv[2]);
+void readDataFile(int arr[], int N, string dataFileName) {
+	string filename(dataFileName);
 	int number;
 
 	ifstream input_file(filename);
@@ -85,7 +79,7 @@ int main(int argc, char **argv)
 	{
 		cerr << "Could not open the file - '"
 			 << filename << "'" << endl;
-		return EXIT_FAILURE;
+		exit;
 	}
 
 	int i = 0;
@@ -96,6 +90,18 @@ int main(int argc, char **argv)
 	}
 	input_file.close();
 
+}
+
+// Driver's code
+int main(int argc, char **argv)
+{
+
+	int N = atoi(argv[1]);
+	int arr[N] = {};
+
+	readDataFile(arr, N, argv[2]);
+
+	// srand(time(NULL));
 	// for(int i = 0; i < N; i++) {
 	// 	arr[i] = rand()%N;
 	// }
