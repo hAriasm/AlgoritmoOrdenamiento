@@ -70,7 +70,8 @@ void printArray(int arr[], int N)
 	cout << "\n";
 }
 
-bool readDataFile(int arr[], int N, string dataFileName) {
+bool readDataFile(int arr[], int N, string dataFileName)
+{
 	string filename(dataFileName);
 	int number;
 
@@ -100,7 +101,8 @@ int main(int argc, char **argv)
 	int N = atoi(argv[1]);
 	int arr[N] = {};
 
-	if(!readDataFile(arr, N, argv[2])) {
+	if (!readDataFile(arr, N, argv[2]))
+	{
 		return EXIT_FAILURE;
 	}
 
