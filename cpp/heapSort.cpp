@@ -31,7 +31,8 @@ void heapify(int arr[], int N, int i)
 		largest = r;
 
 	// If largest is not root
-	if (largest != i) {
+	if (largest != i)
+	{
 		swap(arr[i], arr[largest]);
 
 		// Recursively heapify the affected
@@ -50,7 +51,8 @@ void heapSort(int arr[], int N)
 
 	// One by one extract an element
 	// from heap
-	for (int i = N - 1; i > 0; i--) {
+	for (int i = N - 1; i > 0; i--)
+	{
 
 		// Move current root to end
 		swap(arr[0], arr[i]);
@@ -69,29 +71,31 @@ void printArray(int arr[], int N)
 }
 
 // Driver's code
-int main(int argc, char** argv)
+int main(int argc, char **argv)
 {
 	srand(time(NULL));
 	int N = atoi(argv[1]);
 	int arr[N] = {};
 
 	string filename(argv[2]);
-    int number;
+	int number;
 
 	ifstream input_file(filename);
-    if (!input_file.is_open()) {
-        cerr << "Could not open the file - '"
-             << filename << "'" << endl;
-        return EXIT_FAILURE;
-    }
+	if (!input_file.is_open())
+	{
+		cerr << "Could not open the file - '"
+			 << filename << "'" << endl;
+		return EXIT_FAILURE;
+	}
 
-    int i = 0;
+	int i = 0;
 
-	while (input_file >> number) {
-        arr[i++] = number;
-    }
-    input_file.close();
-	
+	while (input_file >> number)
+	{
+		arr[i++] = number;
+	}
+	input_file.close();
+
 	// for(int i = 0; i < N; i++) {
 	// 	arr[i] = rand()%N;
 	// }
@@ -101,18 +105,17 @@ int main(int argc, char** argv)
 	auto begin = chrono::high_resolution_clock::now();
 
 	heapSort(arr, N);
-	
+
 	auto end = chrono::high_resolution_clock::now();
 	double elapsed = chrono::duration_cast<std::chrono::nanoseconds>(end - begin).count();
 
 	elapsed *= 1e-6;
 
-
-	// cout << endl; 
+	// cout << endl;
 	// cout << "Sorted array is \n";
 	// printArray(arr, N);
 
 	cout << "Tiempo total: " << fixed << elapsed << setprecision(9);
-	
+
 	return EXIT_SUCCESS;
 }
