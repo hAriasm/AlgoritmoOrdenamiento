@@ -70,7 +70,7 @@ void printArray(int arr[], int N)
 	cout << "\n";
 }
 
-void readDataFile(int arr[], int N, string dataFileName) {
+bool readDataFile(int arr[], int N, string dataFileName) {
 	string filename(dataFileName);
 	int number;
 
@@ -79,7 +79,7 @@ void readDataFile(int arr[], int N, string dataFileName) {
 	{
 		cerr << "Could not open the file - '"
 			 << filename << "'" << endl;
-		exit;
+		return false;
 	}
 
 	int i = 0;
@@ -90,6 +90,7 @@ void readDataFile(int arr[], int N, string dataFileName) {
 	}
 	input_file.close();
 
+	return true;
 }
 
 // Driver's code
@@ -99,7 +100,9 @@ int main(int argc, char **argv)
 	int N = atoi(argv[1]);
 	int arr[N] = {};
 
-	readDataFile(arr, N, argv[2]);
+	if(!readDataFile(arr, N, argv[2])) {
+		return EXIT_FAILURE;
+	}
 
 	// srand(time(NULL));
 	// for(int i = 0; i < N; i++) {
