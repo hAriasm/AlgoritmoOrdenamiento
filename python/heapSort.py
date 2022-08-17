@@ -3,6 +3,8 @@
 # To heapify subtree rooted at index i.
 # n is size of heap
 
+import numpy as np
+from timeit import default_timer
 
 def heapify(arr, N, i):
 	largest = i # Initialize largest as root
@@ -44,13 +46,19 @@ def heapSort(arr):
 
 # Driver's code
 if __name__ == '__main__':
-	arr = [12, 11, 13, 5, 6, 7]
+	# arr = [12, 11, 13, 5, 6, 7]
 
+	arr = np.loadtxt('..\data\data_50000.txt', dtype=int)
+
+	inicio = default_timer()
 	# Function call
 	heapSort(arr)
+	fin = default_timer()
+	print('Tiempo de ejecución:', fin-inicio)
+
 	N = len(arr)
 
-	print("Sorted array is")
-	for i in range(N):
-		print("%d" % arr[i], end=" ")
+	# print("Sorted array is")
+	# for i in range(N):
+		# print("%d" % arr[i], end=" ")
 # This code is contributed by Mohit Kumra
