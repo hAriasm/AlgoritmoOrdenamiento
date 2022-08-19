@@ -54,6 +54,10 @@ if __name__ == '__main__':
     arr = np.loadtxt('..\data\data_50000.txt', dtype=int)
 
 array_100 = np.loadtxt('..\data\data_100.txt', dtype=int)
+array_1000 = np.loadtxt('..\data\data_100.txt', dtype=int)
+array_2000 = np.loadtxt('..\data\data_100.txt', dtype=int)
+array_3000 = np.loadtxt('..\data\data_100.txt', dtype=int)
+array_4000 = np.loadtxt('..\data\data_100.txt', dtype=int)
 array_5000 = np.loadtxt('..\data\data_5000.txt', dtype=int)
 array_6000 = np.loadtxt('..\data\data_6000.txt', dtype=int)
 array_7000 = np.loadtxt('..\data\data_7000.txt', dtype=int)
@@ -71,6 +75,10 @@ array_400000 = np.loadtxt('..\data\data_400000.txt', dtype=int)
 array_500000 = np.loadtxt('..\data\data_500000.txt', dtype=int)
 array_1000000 = np.loadtxt('..\data\data_1000000.txt', dtype=int)
 lista_100 = array_100.tolist()
+lista_1000 = array_5000.tolist()
+lista_2000 = array_5000.tolist()
+lista_3000 = array_5000.tolist()
+lista_4000 = array_5000.tolist()
 lista_5000 = array_5000.tolist()
 lista_6000 = array_6000.tolist()
 lista_7000 = array_7000.tolist()
@@ -95,6 +103,36 @@ heapSort(lista_100)
 fin=time.time()
 t_100= fin-inicio
 print(t_100)
+
+inicio = time.time()
+heapSort(lista_1000)
+fin=time.time()
+t_1000= fin-inicio
+print(t_1000)
+
+inicio = time.time()
+heapSort(lista_2000)
+fin=time.time()
+t_2000= fin-inicio
+print(t_2000)
+
+inicio = time.time()
+heapSort(lista_3000)
+fin=time.time()
+t_3000= fin-inicio
+print(t_3000)
+
+inicio = time.time()
+heapSort(lista_4000)
+fin=time.time()
+t_4000= fin-inicio
+print(t_4000)
+
+inicio = time.time()
+heapSort(lista_5000)
+fin=time.time()
+t_5000= fin-inicio
+print(t_5000)
 
 inicio = time.time()
 heapSort(lista_5000)
@@ -197,7 +235,7 @@ print(t_1000000)
 # heapSort(lista_100000)
 # fin = default_timer()
 # print('Tiempo de ejecucion:', fin-inicio)
-
+ 
 # N = len(arr)
 
 # print("Sorted array is")
