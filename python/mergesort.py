@@ -35,6 +35,10 @@ import time
 import matplotlib.pyplot as plt
 
 array_100 =np.loadtxt('..\data\data_100.txt',dtype=int)
+array_1000 =np.loadtxt('..\data\data_1000.txt',dtype=int)
+array_2000 =np.loadtxt('..\data\data_2000.txt',dtype=int)
+array_3000 =np.loadtxt('..\data\data_3000.txt',dtype=int)
+array_4000 =np.loadtxt('..\data\data_4000.txt',dtype=int)
 array_5000 =np.loadtxt('..\data\data_5000.txt',dtype=int)
 array_6000 =np.loadtxt('..\data\data_6000.txt',dtype=int)
 array_7000 =np.loadtxt('..\data\data_7000.txt',dtype=int)
@@ -52,6 +56,10 @@ array_400000 =np.loadtxt('..\data\data_400000.txt',dtype=int)
 array_500000 =np.loadtxt('..\data\data_500000.txt',dtype=int)
 array_1000000 =np.loadtxt('..\data\data_1000000.txt',dtype=int)
 lista_100=array_100.tolist()
+lista_1000=array_1000.tolist()
+lista_2000=array_2000.tolist()
+lista_3000=array_3000.tolist()
+lista_4000=array_4000.tolist()
 lista_5000=array_5000.tolist()
 lista_6000=array_6000.tolist()
 lista_7000=array_7000.tolist()
@@ -76,6 +84,30 @@ merge_sort(lista_100)
 fin=time.time()
 t_100= fin-inicio
 print(t_100)
+
+inicio = time.time()
+merge_sort(lista_1000)
+fin=time.time()
+t_1000= fin-inicio
+print(t_1000)
+
+inicio = time.time()
+merge_sort(lista_2000)
+fin=time.time()
+t_2000= fin-inicio
+print(t_2000)
+
+inicio = time.time()
+merge_sort(lista_3000)
+fin=time.time()
+t_3000= fin-inicio
+print(t_3000)
+
+inicio = time.time()
+merge_sort(lista_4000)
+fin=time.time()
+t_4000= fin-inicio
+print(t_4000)
 
 inicio = time.time()
 merge_sort(lista_5000)
@@ -166,12 +198,6 @@ merge_sort(lista_500000)
 fin=time.time()
 t_500000= fin-inicio
 print(t_500000)
-
-inicio = time.time()
-merge_sort(lista_1000000)
-fin=time.time()
-t_1000000= fin-inicio
-print(t_1000000)
 
 # numero_datos = [100,5000,6000,7000,8000,9000,10000,20000,30000,40000,50000,100000,200000,300000,400000,500000,1000000 ]
 # tiempo= [t_100,t_5000,t_6000,t_7000,t_8000,t_9000,t_10000,t_20000,t_30000,t_40000,t_50000,t_100000,t_200000,t_300000,t_400000,t_500000,t_1000000]
