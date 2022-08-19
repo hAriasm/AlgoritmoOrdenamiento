@@ -73,7 +73,6 @@ array_200000 = np.loadtxt('..\data\data_200000.txt', dtype=int)
 array_300000 = np.loadtxt('..\data\data_300000.txt', dtype=int)
 array_400000 = np.loadtxt('..\data\data_400000.txt', dtype=int)
 array_500000 = np.loadtxt('..\data\data_500000.txt', dtype=int)
-array_1000000 = np.loadtxt('..\data\data_1000000.txt', dtype=int)
 lista_100 = array_100.tolist()
 lista_1000 = array_5000.tolist()
 lista_2000 = array_5000.tolist()
@@ -94,9 +93,6 @@ lista_200000 = array_200000.tolist()
 lista_300000 = array_300000.tolist()
 lista_400000 = array_400000.tolist()
 lista_500000 = array_500000.tolist()
-lista_1000000 = array_1000000.tolist()
-
-
 
 inicio = time.time()
 heapSort(lista_100)
@@ -223,12 +219,6 @@ heapSort(lista_500000)
 fin=time.time()
 t_500000= fin-inicio
 print(t_500000)
-
-inicio = time.time()
-heapSort(lista_1000000)
-fin=time.time()
-t_1000000= fin-inicio
-print(t_1000000)
 
 # inicio = default_timer()
 # # Function call
