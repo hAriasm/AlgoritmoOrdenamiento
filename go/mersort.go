@@ -64,6 +64,98 @@ func main() {
 	elapsed_100 := time.Since(start_100)
 	fmt.Println(elapsed_100)
 
+	//Lectura de 1000 datos
+	archivo_1000, error := os.Open("../data/data_1000.txt")
+	if error != nil {
+		fmt.Println("Hubo error")
+	}
+	scanner_1000 := bufio.NewScanner(archivo_1000)
+	data_1000 := []int{}
+
+	for scanner_1000.Scan() {
+		i, err := strconv.Atoi(scanner_1000.Text())
+		if err != nil {
+			panic(err)
+		}
+		data_1000 = append(data_1000, i)
+	}
+	var array_1000 = data_1000
+
+	// Inicio temporizador 1000 datos
+	start_1000 := time.Now()
+	mergeSort(array_1000)
+	elapsed_1000 := time.Since(start_1000)
+	fmt.Println(elapsed_1000)
+
+	//Lectura de 2000 datos
+	archivo_2000, error := os.Open("../data/data_2000.txt")
+	if error != nil {
+		fmt.Println("Hubo error")
+	}
+	scanner_2000 := bufio.NewScanner(archivo_2000)
+	data_2000 := []int{}
+
+	for scanner_2000.Scan() {
+		i, err := strconv.Atoi(scanner_2000.Text())
+		if err != nil {
+			panic(err)
+		}
+		data_2000 = append(data_2000, i)
+	}
+	var array_2000 = data_2000
+
+	// Inicio temporizador 2000 datos
+	start_2000 := time.Now()
+	mergeSort(array_2000)
+	elapsed_2000 := time.Since(start_2000)
+	fmt.Println(elapsed_2000)
+
+	//Lectura de 3000 datos
+	archivo_3000, error := os.Open("../data/data_3000.txt")
+	if error != nil {
+		fmt.Println("Hubo error")
+	}
+	scanner_3000 := bufio.NewScanner(archivo_3000)
+	data_3000 := []int{}
+
+	for scanner_3000.Scan() {
+		i, err := strconv.Atoi(scanner_3000.Text())
+		if err != nil {
+			panic(err)
+		}
+		data_3000 = append(data_3000, i)
+	}
+	var array_3000 = data_3000
+
+	// Inicio temporizador 3000 datos
+	start_3000 := time.Now()
+	mergeSort(array_3000)
+	elapsed_3000 := time.Since(start_3000)
+	fmt.Println(elapsed_3000)
+
+	//Lectura de 4000 datos
+	archivo_4000, error := os.Open("../data/data_4000.txt")
+	if error != nil {
+		fmt.Println("Hubo error")
+	}
+	scanner_4000 := bufio.NewScanner(archivo_4000)
+	data_4000 := []int{}
+
+	for scanner_4000.Scan() {
+		i, err := strconv.Atoi(scanner_4000.Text())
+		if err != nil {
+			panic(err)
+		}
+		data_4000 = append(data_4000, i)
+	}
+	var array_4000 = data_4000
+
+	// Inicio temporizador 4000 datos
+	start_4000 := time.Now()
+	mergeSort(array_4000)
+	elapsed_4000 := time.Since(start_4000)
+	fmt.Println(elapsed_4000)
+
 	//Lectura de 5000 datos
 	archivo_5000, error := os.Open("../data/data_5000.txt")
 	if error != nil {
@@ -409,26 +501,4 @@ func main() {
 	elapsed_500000 := time.Since(start_500000)
 	fmt.Println(elapsed_500000)
 
-	//Lectura de 1000000 datos
-	archivo_1000000, error := os.Open("../data/data_1000000.txt")
-	if error != nil {
-		fmt.Println("Hubo error")
-	}
-	scanner_1000000 := bufio.NewScanner(archivo_1000000)
-	data_1000000 := []int{}
-
-	for scanner_1000000.Scan() {
-		i, err := strconv.Atoi(scanner_1000000.Text())
-		if err != nil {
-			panic(err)
-		}
-		data_1000000 = append(data_1000000, i)
-	}
-	var array_1000000 = data_1000000
-
-	// Inicio temporizador 1000000 datos
-	start_1000000 := time.Now()
-	mergeSort(array_1000000)
-	elapsed_1000000 := time.Since(start_1000000)
-	fmt.Println(elapsed_1000000)
 }
