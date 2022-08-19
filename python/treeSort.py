@@ -77,119 +77,141 @@ array_100 = np.loadtxt('..\data\data_100.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_100= fin-inicio
+print(t_100)
 root= None 
 array_1000 = np.loadtxt('..\data\data_1000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_1000= fin-inicio
+print(t_1000)
 root= None 
 array_2000 = np.loadtxt('..\data\data_2000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_2000= fin-inicio
+print(t_2000)
 root= None 
 array_3000 = np.loadtxt('..\data\data_3000.txt', dtype=int)
 inicio = time.time() 
-inorderRec(root)
+inorderRec(root) 
 fin = time.time()
-print( fin-inicio)
+t_3000= fin-inicio
+print(t_3000)
+
 root= None 
 array_4000 = np.loadtxt('..\data\data_4000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
-fin = time.time()
-print( fin-inicio)
+fin = time.time() 
+t_4000= fin-inicio
+print(t_4000)
+
 root= None 
 array_5000 = np.loadtxt('..\data\data_5000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_5000= fin-inicio
+print(t_5000)
 root= None 
 array_6000 = np.loadtxt('..\data\data_6000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_6000= fin-inicio
+print(t_6000)
 root= None 
 array_7000 = np.loadtxt('..\data\data_7000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_7000= fin-inicio
+print(t_7000)
 root= None  
 array_8000 = np.loadtxt('..\data\data_8000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_8000= fin-inicio
+print(t_8000)
 root= None  
 array_9000 = np.loadtxt('..\data\data_9000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_9000= fin-inicio
+print(t_9000)
 root= None 
 array_10000 = np.loadtxt('..\data\data_10000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_10000= fin-inicio
+print(t_10000)
 root= None 
 array_20000 = np.loadtxt('..\data\data_20000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_20000= fin-inicio
+print(t_20000)
 root= None 
 array_30000 = np.loadtxt('..\data\data_30000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_30000= fin-inicio
+print(t_30000)
 root= None 
 array_40000 = np.loadtxt('..\data\data_40000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_40000= fin-inicio
+print(t_40000)
 root= None 
 array_50000 = np.loadtxt('..\data\data_50000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_50000= fin-inicio
+print(t_50000)
 root= None 
 array_100000 = np.loadtxt('..\data\data_100000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_100000= fin-inicio
+print(t_100000)
 root= None 
 array_200000 = np.loadtxt('..\data\data_200000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_200000= fin-inicio
+print(t_200000)
 root= None 
 array_300000 = np.loadtxt('..\data\data_300000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_300000= fin-inicio
+print(t_300000)
 root= None 
 array_400000 = np.loadtxt('..\data\data_400000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_400000= fin-inicio
+print(t_400000)
 root= None 
 array_500000 = np.loadtxt('..\data\data_500000.txt', dtype=int)
 inicio = time.time() 
 inorderRec(root)
 fin = time.time()
-print( fin-inicio)
+t_500000= fin-inicio
+print(t_500000)
 root= None 
