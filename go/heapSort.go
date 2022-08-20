@@ -1,8 +1,10 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
-	"math/rand"
+	"os"
+	"strconv"
 	"time"
 )
 
@@ -80,23 +82,53 @@ func (m *minheap) print() {
 }
 
 func main() {
-	inputArray := []int{}
-	N := 10000
 
-	for i := 0; i < N; i++ {
-		inputArray = append(inputArray, rand.Intn(N))
+	var fileDataList = []string{"../data/data_100.txt",
+		"../data/data_1000.txt",
+		"../data/data_2000.txt",
+		"../data/data_3000.txt",
+		"../data/data_4000.txt",
+		"../data/data_5000.txt",
+		"../data/data_6000.txt",
+		"../data/data_7000.txt",
+		"../data/data_8000.txt",
+		"../data/data_9000.txt",
+		"../data/data_10000.txt",
+		"../data/data_20000.txt",
+		"../data/data_30000.txt",
+		"../data/data_40000.txt",
+		"../data/data_50000.txt",
+		"../data/data_100000.txt",
+		"../data/data_200000.txt",
+		"../data/data_300000.txt",
+		"../data/data_400000.txt",
+		"../data/data_500000.txt"}
+
+	for i := range fileDataList {
+		archivo, error := os.Open(fileDataList[i])
+		if error != nil {
+			fmt.Println("Hubo error")
+		}
+		scanner := bufio.NewScanner(archivo)
+		data := []int{}
+		for scanner.Scan() {
+			i, err := strconv.Atoi(scanner.Text())
+			if err != nil {
+				panic(err)
+			}
+
+			data = append(data, i)
+		}
+		var inputArray = data
+
+		minHeap := newMinHeap(inputArray)
+
+		start := time.Now()
+
+		minHeap.sort(len(inputArray))
+
+		elapsed := time.Since(start)
+		fmt.Println(elapsed)
+
 	}
-
-	minHeap := newMinHeap(inputArray)
-
-	start := time.Now()
-
-	minHeap.sort(len(inputArray))
-
-	elapsed := time.Since(start)
-
-	fmt.Printf("page took %s", elapsed)
-
-	// minHeap.print()
-	fmt.Scanln()
 }

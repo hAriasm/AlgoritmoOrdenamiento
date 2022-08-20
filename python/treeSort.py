@@ -5,9 +5,10 @@
 # Class containing left and
 # right child of current
 # node and key value 
-import numpy as np 
+from tokenize import String
+import numpy as np
 from timeit import default_timer
-
+import time
 
 class Node:
  
@@ -60,14 +61,31 @@ def treeins(arr):
   for i in range(len(arr)):
     insert(arr[i])
  
- 
-# Driver Code
-#arr = [randint(1,10440) for _ in range(100)]
-a2 = np.loadtxt('../data/data_500000.txt', dtype=int)
-#print(a2)
-inicio = default_timer()
-#treeins(a2)
-inorderRec(root)
-fin = default_timer()
-print('Tiempo de ejecución:', fin-inicio)
- 
+datoss = ["../data/data_100.txt",
+"../data/data_1000.txt",		
+"../data/data_2000.txt",		
+"../data/data_3000.txt",		
+"../data/data_4000.txt",		
+"../data/data_5000.txt",		
+"../data/data_6000.txt",	
+"../data/data_7000.txt",		
+"../data/data_8000.txt",		
+"../data/data_9000.txt",		
+"../data/data_10000.txt",
+"../data/data_20000.txt",		
+"../data/data_30000.txt",		
+"../data/data_40000.txt",		
+"../data/data_50000.txt",		
+"../data/data_100000.txt",		
+"../data/data_200000.txt",		
+"../data/data_300000.txt",		
+"../data/data_400000.txt",
+"../data/data_500000.txt"]
+for x in range(0,len(datoss)):
+  a2 = np.loadtxt(datoss[x], dtype=int)
+  inicio = time.time()
+  inorderRec(root)
+  treeins(a2)
+  fin = time.time()
+  print(  fin-inicio)
+  root = None
