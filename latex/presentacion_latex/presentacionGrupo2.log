@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  20 AUG 2022 07:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  20 AUG 2022 08:23
 entering extended mode
 **./presentacionGrupo2.tex
 (presentacionGrupo2.tex
@@ -1080,7 +1080,7 @@ Package rerunfilecheck Info: File `presentacionGrupo2.out' has not changed.
 Here is how much of TeX's memory you used:
  18062 strings out of 492895
  347059 string characters out of 3133462
- 419308 words of memory out of 3000000
+ 419309 words of memory out of 3000000
  21495 multiletter control sequences out of 15000+200000
  19586 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1091,7 +1091,7 @@ ts/type1/ascender/opensans/OpenSans-Regular.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic
 /uhvro8a.pfb>
-Output written on presentacionGrupo2.pdf (12 pages, 457861 bytes).
+Output written on presentacionGrupo2.pdf (12 pages, 457860 bytes).
 PDF statistics:
  413 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)

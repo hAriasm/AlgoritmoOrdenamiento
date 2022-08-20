@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  20 AUG 2022 07:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  20 AUG 2022 08:14
 entering extended mode
 **./practica1_grupo2.tex
 (practica1_grupo2.tex
@@ -554,61 +554,56 @@ LaTeX Warning: No positions in optional float specifier.
 
 
 Overfull \hbox (0.8281pt too wide) in paragraph at lines 137--163
-[][] 
+[][]
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 167.
+               Default added (so using `tbp') on input line 169.
 
 
-Overfull \hbox (0.8281pt too wide) in paragraph at lines 168--195
-[][] 
+Overfull \hbox (0.8281pt too wide) in paragraph at lines 170--197
+[][]
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 196.
+               Default added (so using `tbp') on input line 200.
 
 
-Overfull \hbox (75.82832pt too wide) in paragraph at lines 197--225
-[][] 
+Overfull \hbox (75.82832pt too wide) in paragraph at lines 201--229
+[][]
  []
 
 <img/logo_unsa.jpg, id=47, 215.8464pt x 74.679pt>
 File: img/logo_unsa.jpg Graphic file (type jpg)
 <use img/logo_unsa.jpg>
-Package pdftex.def Info: img/logo_unsa.jpg  used on input line 229.
+Package pdftex.def Info: img/logo_unsa.jpg  used on input line 235.
 (pdftex.def)             Requested size: 85.35826pt x 29.53262pt.
 [1{C:/Users/Ivan Arias/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
  <./img/logo_unsa.jpg>]
 File: img/logo_unsa.jpg Graphic file (type jpg)
 <use img/logo_unsa.jpg>
-Package pdftex.def Info: img/logo_unsa.jpg  used on input line 229.
+Package pdftex.def Info: img/logo_unsa.jpg  used on input line 235.
 (pdftex.def)             Requested size: 85.35826pt x 29.53262pt.
- [2]
-File: img/logo_unsa.jpg Graphic file (type jpg)
-<use img/logo_unsa.jpg>
-Package pdftex.def Info: img/logo_unsa.jpg  used on input line 229.
-(pdftex.def)             Requested size: 85.35826pt x 29.53262pt.
- [3pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+ [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.229         \paragraph
+l.235         \paragraph
                          {}pdfTeX warning (ext4): destination with the same ide
 ntifier (name{figure.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.229         \paragraph
+l.235         \paragraph
                          {} <./img/mergesort.png> <./img/mergeSort_1.png>]
-<img/QuickSort_1.png, id=72, 462.528pt x 345.4506pt>
+<img/QuickSort_1.png, id=68, 462.528pt x 345.4506pt>
 File: img/QuickSort_1.png Graphic file (type png)
 <use img/QuickSort_1.png>
-Package pdftex.def Info: img/QuickSort_1.png  used on input line 235.
+Package pdftex.def Info: img/QuickSort_1.png  used on input line 241.
 (pdftex.def)             Requested size: 341.43306pt x 255.01799pt.
 
 
@@ -616,116 +611,153 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 241.
+               Default added (so using `tbp') on input line 247.
 
 
-Overfull \hbox (0.8281pt too wide) in paragraph at lines 242--270
+Overfull \hbox (0.8281pt too wide) in paragraph at lines 248--276
 [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 271.
+               Default added (so using `tbp') on input line 277.
 
 
-Overfull \hbox (0.8281pt too wide) in paragraph at lines 272--298
+Overfull \hbox (0.8281pt too wide) in paragraph at lines 278--304
 [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 301.
+               Default added (so using `tbp') on input line 307.
 
 
-Overfull \hbox (75.82832pt too wide) in paragraph at lines 302--329
+Overfull \hbox (75.82832pt too wide) in paragraph at lines 308--335
 [][] 
  []
 
-<img/HeapSort_1.png, id=73, 462.528pt x 345.4506pt>
+<img/HeapSort_1.png, id=69, 462.528pt x 345.4506pt>
 File: img/HeapSort_1.png Graphic file (type png)
 <use img/HeapSort_1.png>
-Package pdftex.def Info: img/HeapSort_1.png  used on input line 339.
+Package pdftex.def Info: img/HeapSort_1.png  used on input line 345.
 (pdftex.def)             Requested size: 341.43306pt x 255.01799pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 344.
+               Default added (so using `tbp') on input line 350.
 
 
-Overfull \hbox (0.8281pt too wide) in paragraph at lines 345--372
+Overfull \hbox (0.8281pt too wide) in paragraph at lines 351--378
 [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 374.
+               Default added (so using `tbp') on input line 380.
 
 
-Overfull \hbox (0.8281pt too wide) in paragraph at lines 375--401
+Overfull \hbox (0.8281pt too wide) in paragraph at lines 381--407
 [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 405.
+               Default added (so using `tbp') on input line 411.
 
 
-Overfull \hbox (75.82832pt too wide) in paragraph at lines 406--432
+Overfull \hbox (75.82832pt too wide) in paragraph at lines 412--438
 [][] 
  []
 
 File: img/logo_unsa.jpg Graphic file (type jpg)
 <use img/logo_unsa.jpg>
-Package pdftex.def Info: img/logo_unsa.jpg  used on input line 436.
+Package pdftex.def Info: img/logo_unsa.jpg  used on input line 442.
 (pdftex.def)             Requested size: 85.35826pt x 29.53262pt.
-[4pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
+[3pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.436         \subsubsection
+l.442         \subsubsection
                             {Costo Computacional} <./img/mergeSort_2.png>]
+
+LaTeX Warning: Text page 4 contains only floats.
+
+
+Overfull \vbox (1.25327pt too high) has occurred while \output is active []
+
 File: img/logo_unsa.jpg Graphic file (type jpg)
 <use img/logo_unsa.jpg>
-Package pdftex.def Info: img/logo_unsa.jpg  used on input line 436.
+Package pdftex.def Info: img/logo_unsa.jpg  used on input line 442.
 (pdftex.def)             Requested size: 85.35826pt x 29.53262pt.
 
-[5]
-File: img/logo_unsa.jpg Graphic file (type jpg)
-<use img/logo_unsa.jpg>
-Package pdftex.def Info: img/logo_unsa.jpg  used on input line 436.
-(pdftex.def)             Requested size: 85.35826pt x 29.53262pt.
- [6]
-File: img/logo_unsa.jpg Graphic file (type jpg)
-<use img/logo_unsa.jpg>
-Package pdftex.def Info: img/logo_unsa.jpg  used on input line 436.
-(pdftex.def)             Requested size: 85.35826pt x 29.53262pt.
- [7]
-File: img/logo_unsa.jpg Graphic file (type jpg)
-<use img/logo_unsa.jpg>
-Package pdftex.def Info: img/logo_unsa.jpg  used on input line 436.
-(pdftex.def)             Requested size: 85.35826pt x 29.53262pt.
- [8pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
- has been already used, duplicate ignored
+[4pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
+as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.436         \subsubsection
+l.442         \subsubsection
+                            {Costo Computacional}pdfTeX warning (ext4): destina
+tion with the same identifier (name{figure.4}) has been already used, duplicate
+ ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.442         \subsubsection
+                            {Costo Computacional} <./img/QuickSort_1.png>]
+
+LaTeX Warning: Text page 5 contains only floats.
+
+
+Overfull \vbox (1.25327pt too high) has occurred while \output is active []
+
+File: img/logo_unsa.jpg Graphic file (type jpg)
+<use img/logo_unsa.jpg>
+Package pdftex.def Info: img/logo_unsa.jpg  used on input line 442.
+(pdftex.def)             Requested size: 85.35826pt x 29.53262pt.
+
+[5pdfTeX warning (ext4): destination with the same identifier (name{table.2}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.442         \subsubsection
                             {Costo Computacional}pdfTeX warning (ext4): destina
 tion with the same identifier (name{figure.5}) has been already used, duplicate
  ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.436         \subsubsection
-                            {Costo Computacional} <./img/QuickSort_1.png> <./im
-g/HeapSort_1.png>]
-<img/treeSort_1.png, id=106, 462.528pt x 345.4506pt>
+l.442         \subsubsection
+                            {Costo Computacional} <./img/HeapSort_1.png>]
+File: img/logo_unsa.jpg Graphic file (type jpg)
+<use img/logo_unsa.jpg>
+Package pdftex.def Info: img/logo_unsa.jpg  used on input line 442.
+(pdftex.def)             Requested size: 85.35826pt x 29.53262pt.
+
+[6pdfTeX warning (ext4): destination with the same identifier (name{table.3}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.442         \subsubsection
+                            {Costo Computacional}]
+File: img/logo_unsa.jpg Graphic file (type jpg)
+<use img/logo_unsa.jpg>
+Package pdftex.def Info: img/logo_unsa.jpg  used on input line 442.
+(pdftex.def)             Requested size: 85.35826pt x 29.53262pt.
+ [7]
+File: img/logo_unsa.jpg Graphic file (type jpg)
+<use img/logo_unsa.jpg>
+Package pdftex.def Info: img/logo_unsa.jpg  used on input line 442.
+(pdftex.def)             Requested size: 85.35826pt x 29.53262pt.
+ [8]
+<img/treeSort_1.png, id=109, 462.528pt x 345.4506pt>
 File: img/treeSort_1.png Graphic file (type png)
 <use img/treeSort_1.png>
-Package pdftex.def Info: img/treeSort_1.png  used on input line 440.
+Package pdftex.def Info: img/treeSort_1.png  used on input line 446.
 (pdftex.def)             Requested size: 341.43306pt x 255.01799pt.
 
 
@@ -733,87 +765,87 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 444.
+               Default added (so using `tbp') on input line 450.
 
 
-Overfull \hbox (0.8281pt too wide) in paragraph at lines 445--471
+Overfull \hbox (0.8281pt too wide) in paragraph at lines 451--477
 [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 472.
+               Default added (so using `tbp') on input line 478.
 
 
-Overfull \hbox (0.8281pt too wide) in paragraph at lines 473--501
+Overfull \hbox (0.8281pt too wide) in paragraph at lines 479--507
 [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 508.
+               Default added (so using `tbp') on input line 514.
 
 
-Overfull \hbox (75.82832pt too wide) in paragraph at lines 509--536
+Overfull \hbox (75.82832pt too wide) in paragraph at lines 515--542
 [][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 537.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 543.
 File: img/logo_unsa.jpg Graphic file (type jpg)
 <use img/logo_unsa.jpg>
-Package pdftex.def Info: img/logo_unsa.jpg  used on input line 537.
+Package pdftex.def Info: img/logo_unsa.jpg  used on input line 543.
 (pdftex.def)             Requested size: 85.35826pt x 29.53262pt.
 [9]
 File: img/logo_unsa.jpg Graphic file (type jpg)
 <use img/logo_unsa.jpg>
-Package pdftex.def Info: img/logo_unsa.jpg  used on input line 537.
+Package pdftex.def Info: img/logo_unsa.jpg  used on input line 543.
 (pdftex.def)             Requested size: 85.35826pt x 29.53262pt.
  [10]
 File: img/logo_unsa.jpg Graphic file (type jpg)
 <use img/logo_unsa.jpg>
-Package pdftex.def Info: img/logo_unsa.jpg  used on input line 537.
+Package pdftex.def Info: img/logo_unsa.jpg  used on input line 543.
 (pdftex.def)             Requested size: 85.35826pt x 29.53262pt.
  [11pdfTeX warning (ext4): destination with the same identifier (name{figure.6}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.537 \end{document}
+l.543 \end{document}
                      <./img/treeSort_1.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 537.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 543.
  (practica1_grupo2.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 537.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 537.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 543.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 543.
 Package rerunfilecheck Info: File `practica1_grupo2.out' has not changed.
 (rerunfilecheck)             Checksum: 8BD54A91ECF318B70D95206BB0D10207;664.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 537.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 543.
  ) 
 Here is how much of TeX's memory you used:
- 8480 strings out of 492895
- 122688 string characters out of 3133462
- 313586 words of memory out of 3000000
- 12252 multiletter control sequences out of 15000+200000
+ 8487 strings out of 492895
+ 122777 string characters out of 3133462
+ 335535 words of memory out of 3000000
+ 12256 multiletter control sequences out of 15000+200000
  5881 words of font info for 22 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,16n,47p,465b,367s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,16n,47p,465b,362s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb>
-Output written on practica1_grupo2.pdf (11 pages, 460797 bytes).
+Output written on practica1_grupo2.pdf (11 pages, 461939 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
+ 156 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
  116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
