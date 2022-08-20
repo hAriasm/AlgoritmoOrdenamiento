@@ -94,37 +94,30 @@ bool readDataFile(int arr[], int N, string dataFileName)
 	return true;
 }
 
-// Driver's code
 int main(int argc, char **argv)
 {
 
 	int N = atoi(argv[1]);
 	int arr[N] = {};
 
+	// lectura de archivo
 	if (!readDataFile(arr, N, argv[2]))
 	{
 		return EXIT_FAILURE;
 	}
 
-	// srand(time(NULL));
-	// for(int i = 0; i < N; i++) {
-	// 	arr[i] = rand()%N;
-	// }
-
-	// printArray(arr, N);
-
 	auto begin = chrono::high_resolution_clock::now();
 
+	// ejecucion del algoritmo
 	heapSort(arr, N);
 
 	auto end = chrono::high_resolution_clock::now();
+	
+	// calculo del tiempo
 	double elapsed = chrono::duration_cast<std::chrono::nanoseconds>(end - begin).count();
 
+	// Transformacion a milisegundos
 	elapsed *= 1e-6;
-
-	// cout << endl;
-	// cout << "Sorted array is \n";
-	// printArray(arr, N);
 
 	cout << "Tiempo total: " << fixed << elapsed << setprecision(9);
 

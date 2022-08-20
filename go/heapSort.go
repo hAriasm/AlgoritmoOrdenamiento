@@ -83,6 +83,7 @@ func (m *minheap) print() {
 
 func main() {
 
+	// lista de archivos de data para leer
 	var fileDataList = []string{"../data/data_100.txt",
 		"../data/data_1000.txt",
 		"../data/data_2000.txt",
