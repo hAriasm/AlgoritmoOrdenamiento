@@ -48,10 +48,8 @@ def heapSort(arr):
 
 # Driver's code
 if __name__ == '__main__':
-    # arr = [12, 11, 13, 5, 6, 7]
 
-    # arr = np.loadtxt('..\data\data_50000.txt', dtype=int)
-
+    # lista de archivos de datos de prueba
     datos = ["../data/data_100.txt",
               "../data/data_1000.txt",
               "../data/data_2000.txt",
@@ -75,8 +73,10 @@ if __name__ == '__main__':
 for i in range(0, len(datos)):
     arr = np.loadtxt(datos[i], dtype=int)
     inicio = time.time()
+    # ejecucion del algoritmo de ordenamiento
     heapSort(arr)
     fin = time.time()
+    # impresion del tiempo estimado
     print(fin-inicio)
     root = None
 
