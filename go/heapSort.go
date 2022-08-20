@@ -121,10 +121,9 @@ func main() {
 		}
 		var inputArray = data
 
-		minHeap := newMinHeap(inputArray)
-
 		start := time.Now()
 
+		minHeap := newMinHeap(inputArray)
 		minHeap.sort(len(inputArray))
 
 		elapsed := time.Since(start)

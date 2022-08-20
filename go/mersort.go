@@ -1,5 +1,8 @@
 package main
 
+//------------------------------
+// LIBRERIAS
+//------------------------------
 import (
 	"bufio"
 	"fmt"
@@ -8,6 +11,9 @@ import (
 	"time"
 )
 
+// -------------------------------------
+// ALGORITMO DE ORDENAMIENTO MERGESORT
+// -------------------------------------
 func mergeSort(items []int) []int {
 	if len(items) < 2 {
 		return items
@@ -39,9 +45,12 @@ func merge(a []int, b []int) []int {
 	return final
 }
 
+// --------------------------------------------------------------------------------------------------------------------
+// PROGRAMA PRINCIPAL PARA LECTURA DE DATOS DE ARCHIVOS .TXT, EJECUCION DE ALGORITMO DE ORDENAMIENTO Y TEMPORIZACION
+// --------------------------------------------------------------------------------------------------------------------
 func main() {
 
-	//Lectura de 100 datos
+	// LECTURA DE ARCHIVOS .TXT CON 100 DATOS
 	archivo_100, error := os.Open("../data/data_100.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -60,11 +69,13 @@ func main() {
 
 	// Inicio temporizador 100 datos
 	start_100 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_100)
 	elapsed_100 := time.Since(start_100)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_100)
 
-	//Lectura de 1000 datos
+	// LECTURA DE .TXT CON 1000 DATOS
 	archivo_1000, error := os.Open("../data/data_1000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -83,11 +94,13 @@ func main() {
 
 	// Inicio temporizador 1000 datos
 	start_1000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_1000)
 	elapsed_1000 := time.Since(start_1000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_1000)
 
-	//Lectura de 2000 datos
+	// LECTURA DE .TXT CON 2000 DATOS
 	archivo_2000, error := os.Open("../data/data_2000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -106,11 +119,13 @@ func main() {
 
 	// Inicio temporizador 2000 datos
 	start_2000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_2000)
 	elapsed_2000 := time.Since(start_2000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_2000)
 
-	//Lectura de 3000 datos
+	// LECTURA DE .TXT CON 3000 DATOS
 	archivo_3000, error := os.Open("../data/data_3000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -129,11 +144,13 @@ func main() {
 
 	// Inicio temporizador 3000 datos
 	start_3000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_3000)
 	elapsed_3000 := time.Since(start_3000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_3000)
 
-	//Lectura de 4000 datos
+	// LECTURA DE .TXT CON 4000 DATOS
 	archivo_4000, error := os.Open("../data/data_4000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -152,11 +169,13 @@ func main() {
 
 	// Inicio temporizador 4000 datos
 	start_4000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_4000)
 	elapsed_4000 := time.Since(start_4000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_4000)
 
-	//Lectura de 5000 datos
+	// LECTURA DE .TXT CON 5000 DATOS
 	archivo_5000, error := os.Open("../data/data_5000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -175,11 +194,13 @@ func main() {
 
 	// Inicio temporizador 5000 datos
 	start_5000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_5000)
 	elapsed_5000 := time.Since(start_5000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_5000)
 
-	//Lectura de 6000 datos
+	// LECTURA DE .TXT CON 6000 DATOS
 	archivo_6000, error := os.Open("../data/data_6000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -198,11 +219,13 @@ func main() {
 
 	// Inicio temporizador 6000 datos
 	start_6000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_6000)
 	elapsed_6000 := time.Since(start_6000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_6000)
 
-	//Lectura de 7000 datos
+	// LECTURA DE .TXT CON 7000 DATOS
 	archivo_7000, error := os.Open("../data/data_7000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -221,11 +244,13 @@ func main() {
 
 	// Inicio temporizador 7000 datos
 	start_7000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_7000)
 	elapsed_7000 := time.Since(start_7000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_7000)
 
-	//Lectura de 8000 datos
+	// LECTURA DE .TXT CON 8000 DATOS
 	archivo_8000, error := os.Open("../data/data_8000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -244,11 +269,13 @@ func main() {
 
 	// Inicio temporizador 8000 datos
 	start_8000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_8000)
 	elapsed_8000 := time.Since(start_8000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_8000)
 
-	//Lectura de 9000 datos
+	// LECTURA DE .TXT CON 9000 DATOS
 	archivo_9000, error := os.Open("../data/data_9000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -267,11 +294,13 @@ func main() {
 
 	// Inicio temporizador 9000 datos
 	start_9000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_9000)
 	elapsed_9000 := time.Since(start_9000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_9000)
 
-	//Lectura de 10000 datos
+	// LECTURA DE .TXT CON 10000 DATOS
 	archivo_10000, error := os.Open("../data/data_10000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -290,11 +319,13 @@ func main() {
 
 	// Inicio temporizador 10000 datos
 	start_10000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_10000)
 	elapsed_10000 := time.Since(start_10000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_10000)
 
-	//Lectura de 20000 datos
+	// LECTURA DE .TXT CON 20000 DATOS
 	archivo_20000, error := os.Open("../data/data_20000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -313,11 +344,13 @@ func main() {
 
 	// Inicio temporizador 20000 datos
 	start_20000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_20000)
 	elapsed_20000 := time.Since(start_20000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_20000)
 
-	//Lectura de 30000 datos
+	// LECTURA DE .TXT CON 30000 DATOS
 	archivo_30000, error := os.Open("../data/data_30000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -336,11 +369,13 @@ func main() {
 
 	// Inicio temporizador 30000 datos
 	start_30000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_30000)
 	elapsed_30000 := time.Since(start_30000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_30000)
 
-	//Lectura de 40000 datos
+	// LECTURA DE .TXT CON 40000 DATOS
 	archivo_40000, error := os.Open("../data/data_40000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -359,11 +394,13 @@ func main() {
 
 	// Inicio temporizador 40000 datos
 	start_40000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_40000)
 	elapsed_40000 := time.Since(start_40000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_40000)
 
-	//Lectura de 50000 datos
+	// LECTURA DE .TXT CON 50000 DATOS
 	archivo_50000, error := os.Open("../data/data_50000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -382,11 +419,13 @@ func main() {
 
 	// Inicio temporizador 50000 datos
 	start_50000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_50000)
 	elapsed_50000 := time.Since(start_50000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_50000)
 
-	//Lectura de 100000 datos
+	// LECTURA DE .TXT CON 100000 DATOS
 	archivo_100000, error := os.Open("../data/data_100000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -405,11 +444,13 @@ func main() {
 
 	// Inicio temporizador 100000 datos
 	start_100000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_100000)
 	elapsed_100000 := time.Since(start_100000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_100000)
 
-	//Lectura de 200000 datos
+	// LECTURA DE .TXT CON 200000 DATOS
 	archivo_200000, error := os.Open("../data/data_200000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -428,11 +469,13 @@ func main() {
 
 	// Inicio temporizador 200000 datos
 	start_200000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_200000)
 	elapsed_200000 := time.Since(start_200000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_200000)
 
-	//Lectura de 300000 datos
+	// LECTURA DE .TXT CON 300000 DATOS
 	archivo_300000, error := os.Open("../data/data_300000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -451,11 +494,13 @@ func main() {
 
 	// Inicio temporizador 300000 datos
 	start_300000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_300000)
 	elapsed_300000 := time.Since(start_300000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_300000)
 
-	//Lectura de 400000 datos
+	// LECTURA DE .TXT CON 400000 DATOS
 	archivo_400000, error := os.Open("../data/data_400000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -474,11 +519,13 @@ func main() {
 
 	// Inicio temporizador 400000 datos
 	start_400000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_400000)
 	elapsed_400000 := time.Since(start_400000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_400000)
 
-	//Lectura de 500000 datos
+	// LECTURA DE .TXT CON 500000 DATOS
 	archivo_500000, error := os.Open("../data/data_500000.txt")
 	if error != nil {
 		fmt.Println("Hubo error")
@@ -497,8 +544,10 @@ func main() {
 
 	// Inicio temporizador 500000 datos
 	start_500000 := time.Now()
+	// Ejecución de programa de ordenamiento
 	mergeSort(array_500000)
 	elapsed_500000 := time.Since(start_500000)
+	// Impresion de tiempo de ejecucion de programa
 	fmt.Println(elapsed_500000)
 
 }
