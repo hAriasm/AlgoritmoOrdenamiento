@@ -102,8 +102,40 @@
 	
 
 	
-	\section{Ejercicios}\label{sec:ejercicios}
-    \subsection{MergeSort} 
+	\section{Algoritmo de Ordenamiento}\label{sec:ejercicios}
+     \subsection{MergeSort}
+    \paragraph{}
+    El Merge Sort es un algoritmo recursivo bastante eficiente para ordenar un array, que tiene un orden de complejidad O(nlogn) al igual que Quick Sort. fue desarrollado en 1945 por John Von Neumann.
+
+    El Merge Sort está basado en la técnica de diseño de algoritmos Divide y Vencerás, esta técnica consiste en dividir el problema a resolver en sub problemas del mismo tipo que a su vez se dividirán, mientras no sean suficientemente  pequeños o triviales.
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=12cm]{img/mergesort.png}
+        \caption{Estrategia que sigue algoritmo para ordenar una secuencia S de n elementos}
+        \label{fig:mergesort}
+    \end {figure}
+    \subsubsection{Graáfica MergeSort}
+        \begin{figure}[h!]
+        \centering
+        \includegraphics[width=12cm]{img/mergeSort_1.png}
+        \caption{Estrategia que sigue algoritmo para ordenar una secuencia S de n elementos}
+        \label{fig:mergesort}
+    \end {figure}    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=12cm]{img/mergeSort_1.png}
+        \caption{Estrategia que sigue algoritmo para ordenar una secuencia S de n elementos}
+        \label{fig:mergesort}
+    \end {figure}
+    \begin{itemize}
+        \item Si S tiene uno o ningún elemento, está ordenada.
+        \item Si S tiene al menos dos elementos se divide en dos secuencias S1 y S2.
+        \item S1 contiene los primeros n/2 elementos y S2 los restantes.
+        \item Ordenar S1 y S2, aplicando recursivamente este procedimiento
+        \item Mezclar S1 y S2 en S, de forma que ya S1 y S2 estén ordenados
+        \item Veamos ahora como sería la estrategia para mezclar las secuencias:
+    \end{itemize}
+    \paragraph {}
+    Se tienen referencias al principio de cada una de las secuencias a mezclar (S1 y S2). Mientras en alguna secuencia queden elementos, se inserta en la secuencia resultante (S) el menor de los elementos referenciados y se avanza esa referencia una posición.
     \subsection{TreeSort}
     \subsection{TreeSort}
     \subsection{TreeSort}
