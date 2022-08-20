@@ -13,10 +13,10 @@
 \headcommand {\beamer@subsectionpages {3}{3}}
 \headcommand {\sectionentry {2}{Algoritmos}{4}{Algoritmos}{0}}
 \headcommand {\beamer@subsectionpages {4}{3}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{4}{Quict Sort}}
-\headcommand {\slideentry {2}{1}{1}{4/4}{Quict Sort}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{4}{Quick Sort}}
+\headcommand {\slideentry {2}{1}{1}{4/4}{Quick Sort}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\slideentry {2}{1}{2}{5/5}{Quict Sort}{0}}
+\headcommand {\slideentry {2}{1}{2}{5/5}{Quick Sort}{0}}
 \headcommand {\beamer@framepages {5}{5}}
 \headcommand {\beamer@subsectionpages {4}{5}}
 \headcommand {\beamer@subsectionentry {0}{2}{2}{6}{Merge Sort}}

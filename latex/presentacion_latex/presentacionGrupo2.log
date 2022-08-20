@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  20 AUG 2022 07:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  20 AUG 2022 07:58
 entering extended mode
 **./presentacionGrupo2.tex
 (presentacionGrupo2.tex
@@ -1008,49 +1008,55 @@ Overfull \vbox (12.61835pt too high) detected at line 269
 [7
 
  <./Images/mergeSort_1.png>]
-File: Images/mergesort.png Graphic file (type png)
-<use Images/mergesort.png>
-Package pdftex.def Info: Images/mergesort.png  used on input line 295.
-(pdftex.def)             Requested size: 136.91862pt x 101.9825pt.
+<Images/heapSort_a.png, id=253, 391.4625pt x 253.54726pt>
+File: Images/heapSort_a.png Graphic file (type png)
+<use Images/heapSort_a.png>
+Package pdftex.def Info: Images/heapSort_a.png  used on input line 298.
+(pdftex.def)             Requested size: 85.57382pt x 55.42462pt.
+<Images/heapSort_b.png, id=254, 346.29375pt x 119.84775pt>
+File: Images/heapSort_b.png Graphic file (type png)
+<use Images/heapSort_b.png>
+Package pdftex.def Info: Images/heapSort_b.png  used on input line 298.
+(pdftex.def)             Requested size: 85.57382pt x 29.61623pt.
  [8
 
-]
-<Images/HeapSort_1.png, id=279, 462.528pt x 345.4506pt>
+ <./Images/heapSort_a.png> <./Images/heapSort_b.png>]
+<Images/HeapSort_1.png, id=283, 462.528pt x 345.4506pt>
 File: Images/HeapSort_1.png Graphic file (type png)
 <use Images/HeapSort_1.png>
-Package pdftex.def Info: Images/HeapSort_1.png  used on input line 304.
+Package pdftex.def Info: Images/HeapSort_1.png  used on input line 307.
 (pdftex.def)             Requested size: 273.83728pt x 204.53096pt.
 
-Overfull \vbox (12.61835pt too high) detected at line 304
+Overfull \vbox (12.61835pt too high) detected at line 307
  []
 
 [9
 
  <./Images/HeapSort_1.png>]
-<Images/treesorttwo_1.png, id=306, 530.98375pt x 368.37625pt>
+<Images/treesorttwo_1.png, id=310, 530.98375pt x 368.37625pt>
 File: Images/treesorttwo_1.png Graphic file (type png)
 <use Images/treesorttwo_1.png>
-Package pdftex.def Info: Images/treesorttwo_1.png  used on input line 329.
+Package pdftex.def Info: Images/treesorttwo_1.png  used on input line 332.
 (pdftex.def)             Requested size: 136.91862pt x 94.98862pt.
  [10
 
  <./Images/treesorttwo_1.png>]
-<Images/treeSort_1.png, id=333, 462.528pt x 345.4506pt>
+<Images/treeSort_1.png, id=337, 462.528pt x 345.4506pt>
 File: Images/treeSort_1.png Graphic file (type png)
 <use Images/treeSort_1.png>
-Package pdftex.def Info: Images/treeSort_1.png  used on input line 338.
+Package pdftex.def Info: Images/treeSort_1.png  used on input line 341.
 (pdftex.def)             Requested size: 273.83728pt x 204.53096pt.
 
-Overfull \vbox (12.61835pt too high) detected at line 338
+Overfull \vbox (12.61835pt too high) detected at line 341
  []
 
 [11
 
  <./Images/treeSort_1.png>]
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 352.
+(Font)              scaled to size 24.88pt on input line 355.
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 352.
+(Font)              scaled to size 17.28pt on input line 355.
  [12
 
 ]
@@ -1063,31 +1069,31 @@ LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
 \tf@snm=\write8
 \openout8 = `presentacionGrupo2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
  (presentacionGrupo2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 356.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
 Package rerunfilecheck Info: File `presentacionGrupo2.out' has not changed.
-(rerunfilecheck)             Checksum: 19891B20433A64BEBC632BAFED38255F;414.
+(rerunfilecheck)             Checksum: 67E0A629DF07C68DAC145D6C407B5AC9;414.
  ) 
 Here is how much of TeX's memory you used:
- 18052 strings out of 492895
- 346825 string characters out of 3133462
- 418308 words of memory out of 3000000
- 21487 multiletter control sequences out of 15000+200000
+ 18062 strings out of 492895
+ 347059 string characters out of 3133462
+ 419308 words of memory out of 3000000
+ 21495 multiletter control sequences out of 15000+200000
  19586 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,15n,58p,787b,723s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,15n,58p,787b,733s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
 KTeX 2.9/fonts/enc/dvips/opensans/a_n3lhbv.enc}<C:/Program Files/MiKTeX 2.9/fon
 ts/type1/ascender/opensans/OpenSans-Regular.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic
 /uhvro8a.pfb>
-Output written on presentacionGrupo2.pdf (12 pages, 425163 bytes).
+Output written on presentacionGrupo2.pdf (12 pages, 457861 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
+ 413 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 167 words of extra memory for PDF output out of 10000 (max. 10000000)
 

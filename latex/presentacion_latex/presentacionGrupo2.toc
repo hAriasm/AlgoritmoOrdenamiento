@@ -1,7 +1,7 @@
 \beamer@sectionintoc {1}{Caracter\IeC {\'\i }sticas}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Equipo usado para pruebas}{3}{0}{1}
 \beamer@sectionintoc {2}{Algoritmos}{4}{0}{2}
-\beamer@subsectionintoc {2}{1}{Quict Sort}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Quick Sort}{4}{0}{2}
 \beamer@subsectionintoc {2}{2}{Merge Sort}{6}{0}{2}
 \beamer@subsectionintoc {2}{3}{Heap Sort}{8}{0}{2}
 \beamer@subsectionintoc {2}{4}{Tree Sort}{10}{0}{2}
