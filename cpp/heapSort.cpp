@@ -108,9 +108,12 @@ int main(int argc, char **argv)
 
 	auto begin = chrono::high_resolution_clock::now();
 
+	// ejecucion del algoritmo
 	heapSort(arr, N);
 
 	auto end = chrono::high_resolution_clock::now();
+	
+	// calculo del tiempo
 	double elapsed = chrono::duration_cast<std::chrono::nanoseconds>(end - begin).count();
 
 	// Transformacion a milisegundos
