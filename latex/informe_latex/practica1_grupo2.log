@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  20 AUG 2022 06:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  20 AUG 2022 07:49
 entering extended mode
 **./practica1_grupo2.tex
 (practica1_grupo2.tex
@@ -380,9 +380,6 @@ LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
-
-
-LaTeX Warning: Label `fig:mergesort' multiply defined.
 
 
 LaTeX Warning: Label `fig:mergesort' multiply defined.
@@ -803,18 +800,18 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 537.
 Here is how much of TeX's memory you used:
  8480 strings out of 492895
  122688 string characters out of 3133462
- 313490 words of memory out of 3000000
+ 313586 words of memory out of 3000000
  12252 multiletter control sequences out of 15000+200000
  5881 words of font info for 22 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,16n,47p,490b,367s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,16n,47p,465b,367s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb>
-Output written on practica1_grupo2.pdf (11 pages, 460812 bytes).
+Output written on practica1_grupo2.pdf (11 pages, 460797 bytes).
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
  35 named destinations out of 1000 (max. 500000)

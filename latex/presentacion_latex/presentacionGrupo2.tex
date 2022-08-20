@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Beamer Presentation
-% LaTeX Template
+% LaTeX Template|
 % Version 2.0 (March 8, 2022)
 %
 % This template originates from:
@@ -146,11 +146,13 @@
 
 \subtitle{Práctica 01} % Presentation subtitle, remove this command if a subtitle isn't required
 
-\author[ ]{EDER   AMPUERO \and HOWARD   ARANZAMENDI \and JOSE EDISON PEREZ \and HENRRY   ARIAS} % Presenter name(s), the optional parameter can contain a shortened version to appear on the bottom of every slide, while the main parameter will appear on the title slide
+\author[ ]{
+EDER ALONSO AMPUERO ATAMARI\\ \and
+HOWARD FERNANDO ARANZAMENDI MORALES\\ \and
+JOSE EDISON PEREZ MAMANI\\ \and
+HENRRY IVAN ARIAS MAMANI} % Presenter name(s), the optional parameter can contain a shortened version to appear on the bottom of every slide, while the main parameter will appear on the title slide
 
-\institute[UC]{Universidad Nacional San Agustín de Arequipa \\ \smallskip \textit{eampuero@unsa.edu.pe \and
-haranzamendi@unsa.edu.pe  \and
-jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optional parameter can be used for the institution shorthand and will appear on the bottom of every slide after author names, while the required parameter is used on the title slide and can include your email address or additional information on separate lines
+\institute[UC]{Universidad Nacional San Agustín de Arequipa \\ \smallskip \textit{ }} % Your institution, the optional parameter can be used for the institution shorthand and will appear on the bottom of every slide after author names, while the required parameter is used on the title slide and can include your email address or additional information on separate lines
 
 \date[\today]{Arequipa \\ \today} % Presentation date or conference/meeting name, the optional parameter can contain a shortened version to appear on the bottom of every slide, while the required parameter value is output to the title slide
 
@@ -192,7 +194,7 @@ jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optiona
 \begin{frame}
 	\frametitle{Características del equipo}
 	
-	Se uso un único equipo con la misma data para todas las pruebas.
+	Las pruebas se realizaron en un solo equipo y con la misma data de prueba.
 
 		\begin{figure}
 		\includegraphics[width=0.8\linewidth]{caracteristicas.png}
@@ -203,7 +205,7 @@ jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optiona
 
 %------------------------------------------------
 \section{Algoritmos}
-\subsection{QUICK SORT}
+\subsection{Quict Sort}
 \begin{frame}
 	\frametitle{QUICK SORT}
     \begin{columns}[t] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
@@ -238,17 +240,15 @@ jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optiona
 %------------------------------------------------
 
 \subsection{Merge Sort}
-
 \begin{frame}
 	\frametitle{MERGE SORT}
     \begin{columns}[t] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 		\begin{column}{0.45\textwidth} % Left column width
-			 \begin{itemize} 
-              \item Es un algoritmo recursivo bastante eficiente para ordenar un array.
-        \item Usa la técnica de divide y vencerás, la cual consiste en dividir el problema en sub problemas del mismo tipo que a su vez se dividirán hasta que sean suficientemente pequeños o triviales
-        \item Costo computacional: T(N) = Nlog2 N
-    \end{itemize}
-
+			 \begin{itemize}
+                \item Es un algoritmo recursivo bastante eficiente para ordenar un array.
+                \item Usa la técnica de divide y vencerás, la cual consiste en dividir el problema en sub problemas del mismo tipo que a su vez se dividirán hasta que sean suficientemente pequeños o triviales
+                \item Costo computacional: T(N) = Nlog2 N
+        \end{itemize}
 		\end{column}		
 		\begin{column}{0.5\textwidth} % Right column width
 			\begin{figure}
@@ -275,10 +275,14 @@ jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optiona
 	\frametitle{HEAP SORT}
     \begin{columns}[t] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 		\begin{column}{0.45\textwidth} % Left column width
-			 HeapsortHeapsort (Williams, 1964)
+            Un heap es un objeto array que puede ser vista como un árbol binario.
 
-        En la práctica su coste es superior al de quicksort, ya que el factor constante multiplicativo del término nlogn es mayor.
-
+            El algoritmo de ordenamiento Heapsort ordena este array y tiene las siguientes características:
+            \begin{itemize}
+              \item O(nlogn) incluso en el peor caso, como el merge sort.
+              \item El ordenamiento es in-situ, como el insertion sort.
+              \item Combines the best of both algorithms.
+            \end{itemize}
 		\end{column}		
 		\begin{column}{0.5\textwidth} % Right column width
 			\begin{figure}
@@ -307,6 +311,12 @@ jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optiona
     \begin{columns}[t] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 		\begin{column}{0.45\textwidth} % Left column width
 			 La clasificación de árbol es un algoritmo de clasificación que se basa en la estructura de datos del árbol de búsqueda binaria.
+            
+            El algortimo tiene las siguientes caracteristicas
+            \begin{itemize}
+              \item O(nlogn) para agregar y busqueda
+              \item El recorrido del árbol es inorden y como coste O(n). 
+            \end{itemize}
 		\end{column}		
 		\begin{column}{0.5\textwidth} % Right column width
 			\begin{figure}
@@ -326,27 +336,6 @@ jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optiona
 		\caption{Tree Sort}
 	\end{figure}
 \end{frame}
- 
-%------------------------------------------------
-
-\begin{frame} % Use [allowframebreaks] to allow automatic splitting across slides if the content is too long
-	\frametitle{References}
-	
-	\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below, you may need to use multiple columns and/or reduce the font size further if you have many references
-		\footnotesize % Reduce the font size in the bibliography
-		
-		\bibitem[Smith, 2022]{p1}
-			John Smith (2022)
-			\newblock Publication title
-			\newblock \emph{Journal Name} 12(3), 45 -- 678.
-			
-		\bibitem[Kennedy, 2023]{p2}
-			Annabelle Kennedy (2023)
-			\newblock Publication title
-			\newblock \emph{Journal Name} 12(3), 45 -- 678.
-	\end{thebibliography}
-\end{frame}
- 
 
 %----------------------------------------------------------------------------------------
 %	CLOSING SLIDE

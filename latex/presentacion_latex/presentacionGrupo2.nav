@@ -13,10 +13,10 @@
 \headcommand {\beamer@subsectionpages {3}{3}}
 \headcommand {\sectionentry {2}{Algoritmos}{4}{Algoritmos}{0}}
 \headcommand {\beamer@subsectionpages {4}{3}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{4}{QUICK SORT}}
-\headcommand {\slideentry {2}{1}{1}{4/4}{QUICK SORT}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{4}{Quict Sort}}
+\headcommand {\slideentry {2}{1}{1}{4/4}{Quict Sort}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\slideentry {2}{1}{2}{5/5}{QUICK SORT}{0}}
+\headcommand {\slideentry {2}{1}{2}{5/5}{Quict Sort}{0}}
 \headcommand {\beamer@framepages {5}{5}}
 \headcommand {\beamer@subsectionpages {4}{5}}
 \headcommand {\beamer@subsectionentry {0}{2}{2}{6}{Merge Sort}}
@@ -38,10 +38,8 @@
 \headcommand {\beamer@framepages {11}{11}}
 \headcommand {\slideentry {2}{4}{3}{12/12}{Tree Sort}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {2}{4}{4}{13/13}{Tree Sort}{0}}
-\headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@partpages {1}{13}}
-\headcommand {\beamer@subsectionpages {10}{13}}
-\headcommand {\beamer@sectionpages {4}{13}}
-\headcommand {\beamer@documentpages {13}}
-\headcommand {\gdef \inserttotalframenumber {13}}
+\headcommand {\beamer@partpages {1}{12}}
+\headcommand {\beamer@subsectionpages {10}{12}}
+\headcommand {\beamer@sectionpages {4}{12}}
+\headcommand {\beamer@documentpages {12}}
+\headcommand {\gdef \inserttotalframenumber {12}}
