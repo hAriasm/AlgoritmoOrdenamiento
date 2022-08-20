@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  19 AUG 2022 19:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  20 AUG 2022 06:42
 entering extended mode
 **./presentacionGrupo2.tex
 (presentacionGrupo2.tex
@@ -732,28 +732,28 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 emecircles.sty") (presentacionGrupo2.aux)
 \openout1 = `presentacionGrupo2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
 LaTeX Font Info:    Try loading font information for OT1+opensans-TLF on input 
-line 157.
+line 159.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/opensans\ot1opensans-tlf.fd"
 File: OT1opensans-TLF.fd 2019/06/24 Font definitions for OT1/opensans-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 157.
+(Font)              scaled to size 10.95pt on input line 159.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -817,7 +817,7 @@ G,.JBIG2,.JB2,.eps]
 )
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 157.
+Package hyperref Info: Link coloring OFF on input line 159.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -827,56 +827,56 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count168
 )
-LaTeX Info: Redefining \ref on input line 157.
-LaTeX Info: Redefining \pageref on input line 157.
-LaTeX Info: Redefining \nameref on input line 157.
+LaTeX Info: Redefining \ref on input line 159.
+LaTeX Info: Redefining \pageref on input line 159.
+LaTeX Info: Redefining \nameref on input line 159.
 
 (presentacionGrupo2.out) (presentacionGrupo2.out)
 \@outlinefile=\write5
 \openout5 = `presentacionGrupo2.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 157.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 159.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 157.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 159.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/ppl/m/n on input line 157.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 157.
+(Font)                  OT1/cmss/m/n --> OT1/ppl/m/n on input line 159.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 157.
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 157.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 157.
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 159.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 157.
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 157.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 157.
+(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 159.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/phv/m/it on input line 157.
+(Font)                  OT1/cmr/m/it --> OT1/phv/m/it on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/phv/m/it on input line 157.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 157.
+(Font)                  OT1/cmr/bx/it --> OT1/phv/m/it on input line 159.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 157.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 157.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 159.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 157.
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 159.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 157.
+(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/ppl/bx/n on input line 157.
+(Font)                  OT1/cmss/bx/n --> OT1/ppl/bx/n on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 157.
+(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 157.
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 157.
+(Font)                  OT1/phv/m/it --> OT1/phv/bx/it on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/pcr/m/n --> OT1/pcr/bx/n on input line 157.
+(Font)                  OT1/pcr/m/n --> OT1/pcr/bx/n on input line 159.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/translator\translator-basic-dictionary-
 English.dict"
@@ -906,131 +906,117 @@ Dictionary: translator-theorem-dictionary, Language: English
 \c@mv@boldtabular=\count170
  (presentacionGrupo2.nav)
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 157.
+(Font)              scaled to size 6.0pt on input line 159.
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 165.
+(Font)              scaled to size 14.4pt on input line 167.
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 165.
+(Font)              scaled to size 8.0pt on input line 167.
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 165.
+(Font)              scaled to size 8.0pt on input line 167.
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 4.0pt on input line 165.
+(Font)              scaled to size 4.0pt on input line 167.
  [1
 
 {C:/Users/Ivan Arias/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (prese
 ntacionGrupo2.toc) [2
 
 ]
-LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 206.
+<Images/caracteristicas.png, id=120, 607.26875pt x 284.06125pt>
+File: Images/caracteristicas.png Graphic file (type png)
+<use Images/caracteristicas.png>
+Package pdftex.def Info: Images/caracteristicas.png  used on input line 202.
+(pdftex.def)             Requested size: 273.83728pt x 128.0951pt.
+LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 202.
  [3
 
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 230.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+ <./Images/caracteristicas.png>]
+LaTeX Font Info:    Font shape `OT1/opensans-TLF/bx/n' in size <10.95> not avai
+lable
+(Font)              Font shape `OT1/opensans-TLF/b/n' tried instead on input li
+ne 225.
+LaTeX Font Info:    Font shape `OT1/opensans-TLF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 225.
+LaTeX Font Info:    Try loading font information for U+msa on input line 225.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 230.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+LaTeX Font Info:    Try loading font information for U+msb on input line 225.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 230.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 225.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 230.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 225.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 230.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 225.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 230.
-LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 230.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 230.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 230.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 230.
-LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 230.
- [4
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 225.
+<Images/quickSort.png, id=146, 295.1025pt x 399.4925pt>
+File: Images/quickSort.png Graphic file (type png)
+<use Images/quickSort.png>
+Package pdftex.def Info: Images/quickSort.png  used on input line 225.
+(pdftex.def)             Requested size: 136.91862pt x 185.35367pt.
 
-]
+Overfull \vbox (8.04106pt too high) detected at line 225
+ []
+
+[4
+
+ <./Images/quickSort.png>]
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 254.
+(Font)              scaled to size 12.0pt on input line 240.
+<Images/QuickSort_1.png, id=178, 462.528pt x 345.4506pt>
+File: Images/QuickSort_1.png Graphic file (type png)
+<use Images/QuickSort_1.png>
+Package pdftex.def Info: Images/QuickSort_1.png  used on input line 240.
+(pdftex.def)             Requested size: 171.14764pt x 127.82526pt.
  [5
 
-]
-LaTeX Font Info:    Font shape `OT1/opensans-TLF/bx/n' in size <10.95> not avai
-lable
-(Font)              Font shape `OT1/opensans-TLF/b/n' tried instead on input li
-ne 277.
-LaTeX Font Info:    Font shape `OT1/opensans-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 277.
+ <./Images/QuickSort_1.png>]
+LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 263.
  [6
 
 ] [7
 
 ]
-<Images/creodocs_logo.pdf, id=262, 833.50496pt x 170.09146pt>
-File: Images/creodocs_logo.pdf Graphic file (type pdf)
-<use Images/creodocs_logo.pdf>
-Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 314.
-(pdftex.def)             Requested size: 273.83728pt x 55.8812pt.
-
-[8
-
- <./Images/creodocs_logo.pdf>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 340.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 302.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [9
-
-] [10
-
-] [11
-
-]
-\openout4 = `presentacionGrupo2.vrb'.
-
-
-(presentacionGrupo2.vrb) [12
-
-] [13
-
-]
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 404.
+)
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 302.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omspcr.fd"
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 404.
- [14
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 302.
+ [8
 
 ]
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 424.
- [15
+(Font)              scaled to size 9.0pt on input line 322.
+ [9
 
  <C:/Users/Ivan Arias/AppData/Roaming/MiKTeX/2.9/tex/latex/beamer/beamericonart
 icle.pdf>]
-[16
+[10
 
 ]
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 469.
+(Font)              scaled to size 24.88pt on input line 367.
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 469.
- [17
+(Font)              scaled to size 17.28pt on input line 367.
+ [11
 
 ]
 \tf@nav=\write6
@@ -1042,36 +1028,34 @@ LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
 \tf@snm=\write8
 \openout8 = `presentacionGrupo2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 473.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 473.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 371.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 371.
  (presentacionGrupo2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 473.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 473.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 371.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 371.
 Package rerunfilecheck Info: File `presentacionGrupo2.out' has not changed.
-(rerunfilecheck)             Checksum: 853A2E11393ABD3C205481D98D6A4C5D;498.
+(rerunfilecheck)             Checksum: 0026E8C3F92A487EA57AD41AF68FAF35;455.
  ) 
 Here is how much of TeX's memory you used:
- 18329 strings out of 492895
- 353689 string characters out of 3133462
- 427088 words of memory out of 3000000
- 21737 multiletter control sequences out of 15000+200000
- 31142 words of font info for 88 fonts, out of 3000000 for 9000
+ 18179 strings out of 492895
+ 350073 string characters out of 3133462
+ 419245 words of memory out of 3000000
+ 21604 multiletter control sequences out of 15000+200000
+ 22886 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,15n,69p,787b,897s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,15n,58p,787b,897s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
 KTeX 2.9/fonts/enc/dvips/opensans/a_n3lhbv.enc}{C:/Program Files/MiKTeX 2.9/fon
 ts/enc/dvips/opensans/a_iz27ck.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/asc
 ender/opensans/OpenSans-Bold.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ascen
 der/opensans/OpenSans-Italic.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ascen
 der/opensans/OpenSans-Regular.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentacionGrupo2.pdf (17 pages, 204052 bytes).
+ic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/
+ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on presentacionGrupo2.pdf (11 pages, 228741 bytes).
 PDF statistics:
- 588 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

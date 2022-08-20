@@ -98,7 +98,7 @@
 		\end{itemize}		
 	\end{itemize}
 	\section{Algoritmo de Ordenamiento}\label{sec:ejercicios}
-    \subsection{caracteristicas}
+    \subsection{Caracteristicas}
      \subsection{MergeSort}
     \paragraph{}
     El Merge Sort es un algoritmo recursivo bastante eficiente para ordenar un array, que tiene un orden de complejidad O(nlogn) al igual que Quick Sort. fue desarrollado en 1945 por John Von Neumann.
@@ -160,10 +160,10 @@
 400000	&478.9285	&463.8541	&474.8911	&481.0437	&477.0424	&475.15196	&6.713015465\\ \hline
 500000	&589.1112	&580.0919	&593.2032	&591.8553	&705.3167	&611.91566	&52.46218536\\ \hline
         \end{tabular}
-    \end{table} 
-    
-    
-    
+    \end{table}
+
+
+
         \begin{table}[]
         \begin{tabular}{|c|c|c|c|c|c|c|c| }
             \hline
@@ -192,7 +192,7 @@
 500000	&226.1258&	261.0595	&266.9817	&267.5833	&248.8818	&254.12642	&17.36342565\\ \hline
 
                 \end{tabular}
-    \end{table} 
+    \end{table}
                     \begin{table}[]
         \begin{tabular}{|c|c|c|c|c|c|c|c| }
             \hline
@@ -219,10 +219,10 @@
 300000 &	3.931644201 &	2.67054534 &	2.755848169 &	2.798952579 &	2.56230402	 &2943.858862	 &559.5422475\\ \hline
 400000 &	3.860989094 &	3.510637999 &	3.683504343 &	3.768096685 &	3.613694191	 &3687.384462	 &135.4046296\\ \hline
 500000 &	4.537797928 &	4.659104586 &	4.622467756 &	4.709950686 &	4.4588449	 &4597.633171 &99.81627618\\ \hline
-            
-            
+
+
             \end{tabular}
-    \end{table} 
+    \end{table}
     \subsection{QuickSort}
         \paragraph {}
         Quicksort ha sido históricamente el algoritmo genérico de ordenamiento más rápido conocido en la práctica. Es un algoritmo recursivo del tipo “divide y vencerás”, es fácil de implementar, que permite, en promedio, ordenar n elementos en un tiempo proporcional a n log n.
@@ -236,44 +236,44 @@
             \caption{Estrategia que sigue algoritmo para ordenar una secuencia S de n elementos}
             \label{fig:mergesort}
         \end {figure}
-    
-    
+
+
     \begin{table}[]
         \begin{tabular}{|c|c|c|c|c|c|c|c| }
             \hline
             \multicolumn{8}{|c|}{Algoritmo: Quick Sort} \\ \hline
             \multicolumn{4}{|c|}{} & \multicolumn{4}{c|}{Lenguaje: C++} \\ \hline
-              N de Datos &     t1    &  t2         &  t3          &   t4        &    t5     &   Promedio(t)       & desv. s. \\ \hline        
-100	    &0.0187	&0.0233	&0.0163	&0.0245	&0.0225	&0.02106	&0.003433366 \\ \hline   
-1000	&0.2602	&0.3473	&0.4579	&0.2286	&0.259	&0.3106	&0.09350254 \\ \hline   
-2000	&0.733	&0.5807	&0.7085	&0.7691	&0.6711	&0.69248	&0.071973968 \\ \hline   
-3000	&0.7919	&0.7924	&0.9621	&1.0846	&1.1932	&0.96484	&0.177582412 \\ \hline   
-4000	&1.2483	&1.2782	&1.2328	&1.7202	&1.4819	&1.39228	&0.209010543 \\ \hline   
-5000	&2.0514	&1.7369	&2.3129	&1.6202	&2.1261	&1.9695	&0.285161349 \\ \hline   
-6000	&2.8691	&2.0011	&2.6279	&2.4449	&2.6059	&2.50978	&0.322206071 \\ \hline   
-7000	&3.4611	&2.5416	&2.9049	&3.0544	&2.5433	&2.90106	&0.385479056 \\ \hline   
-8000	&3.3108	&3.265	&3.8929	&2.9292	&3.9379	&3.46716	&0.435192133 \\ \hline   
-9000	&3.8874	&3.6595	&3.986	&3.4005	&3.9895	&3.78458	&0.253128736 \\ \hline   
-10000	&4.784	&4.0452	&3.7409	&6.5858	&3.8669	&4.60456	&1.179029806 \\ \hline   
-20000	&12.7512	&10.055	&8.812	&11.8333	&8.1281	&10.31592&	1.958918178 \\ \hline   
-30000	&12.8663	&12.6601	&23.3719	&15.1841	&13.4952	&15.51552&	4.502389055 \\ \hline   
-40000	&18.1782	&16.4566	&20.842	&20.9858	&21.1016	&19.51284&	2.096562822 \\ \hline   
-50000	&32.1925	&21.2544	&38.008	&24.691	&35.0562	&30.24042&	7.05128127 \\ \hline   
-100000	&60.913	&49.2804	&48.2738	&46.4789	&53.1548	&51.62018&	5.740582542 \\ \hline   
-200000	&126.1002	&98.1128	    &106.289	    &101.0139	&109.0098&	108.10514&	10.93242313 \\ \hline   
-300000	&189.3729	&165.117	    &153.6852	&155.4696	&160.9269&	164.91432&	14.4001615 \\ \hline   
-400000	&255.2373	&213.9224	&225.0151	&215.6328	&229.8306&	227.92764&	16.62251119 \\ \hline   
-500000	&306.2959	&275.6362	&280.8843	&283.1553	&308.869	 &    290.96814&	15.43675563 \\ \hline   
-        
-        
+              N de Datos &     t1    &  t2         &  t3          &   t4        &    t5     &   Promedio(t)       & desv. s. \\ \hline
+100	    &0.0187	&0.0233	&0.0163	&0.0245	&0.0225	&0.02106	&0.003433366 \\ \hline
+1000	&0.2602	&0.3473	&0.4579	&0.2286	&0.259	&0.3106	&0.09350254 \\ \hline
+2000	&0.733	&0.5807	&0.7085	&0.7691	&0.6711	&0.69248	&0.071973968 \\ \hline
+3000	&0.7919	&0.7924	&0.9621	&1.0846	&1.1932	&0.96484	&0.177582412 \\ \hline
+4000	&1.2483	&1.2782	&1.2328	&1.7202	&1.4819	&1.39228	&0.209010543 \\ \hline
+5000	&2.0514	&1.7369	&2.3129	&1.6202	&2.1261	&1.9695	&0.285161349 \\ \hline
+6000	&2.8691	&2.0011	&2.6279	&2.4449	&2.6059	&2.50978	&0.322206071 \\ \hline
+7000	&3.4611	&2.5416	&2.9049	&3.0544	&2.5433	&2.90106	&0.385479056 \\ \hline
+8000	&3.3108	&3.265	&3.8929	&2.9292	&3.9379	&3.46716	&0.435192133 \\ \hline
+9000	&3.8874	&3.6595	&3.986	&3.4005	&3.9895	&3.78458	&0.253128736 \\ \hline
+10000	&4.784	&4.0452	&3.7409	&6.5858	&3.8669	&4.60456	&1.179029806 \\ \hline
+20000	&12.7512	&10.055	&8.812	&11.8333	&8.1281	&10.31592&	1.958918178 \\ \hline
+30000	&12.8663	&12.6601	&23.3719	&15.1841	&13.4952	&15.51552&	4.502389055 \\ \hline
+40000	&18.1782	&16.4566	&20.842	&20.9858	&21.1016	&19.51284&	2.096562822 \\ \hline
+50000	&32.1925	&21.2544	&38.008	&24.691	&35.0562	&30.24042&	7.05128127 \\ \hline
+100000	&60.913	&49.2804	&48.2738	&46.4789	&53.1548	&51.62018&	5.740582542 \\ \hline
+200000	&126.1002	&98.1128	    &106.289	    &101.0139	&109.0098&	108.10514&	10.93242313 \\ \hline
+300000	&189.3729	&165.117	    &153.6852	&155.4696	&160.9269&	164.91432&	14.4001615 \\ \hline
+400000	&255.2373	&213.9224	&225.0151	&215.6328	&229.8306&	227.92764&	16.62251119 \\ \hline
+500000	&306.2959	&275.6362	&280.8843	&283.1553	&308.869	 &    290.96814&	15.43675563 \\ \hline
+
+
         \end{tabular}
-    \end{table}        
+    \end{table}
         \begin{table}[]
         \begin{tabular}{|c|c|c|c|c|c|c|c| }
             \hline
             \multicolumn{8}{|c|}{Algoritmo: Quick Sort} \\ \hline
             \multicolumn{4}{|c|}{} & \multicolumn{4}{c|}{Lenguaje: GO} \\ \hline
-              N de Datos &     t1    &  t2         &  t3          &   t4        &    t5     &   Promedio(t)       & desv. s. \\ \hline  
+              N de Datos &     t1    &  t2         &  t3          &   t4        &    t5     &   Promedio(t)       & desv. s. \\ \hline
                 100	&0.0156&0	&0	&0	&0	&0.00312	&0.006976532\\ \hline
                 1000	&0	&0	&0.1399	&0.2501	&0.3944	&0.15688	&0.169275447\\ \hline
                 2000	&0.5932	&0	&0.5816	&0.523	&0.5053	&0.44062	&0.249134486\\ \hline
@@ -295,15 +295,15 @@
                 400000	&127.1079	&135.2571	&137.8239	&158.002	      &126.1373	&136.86564	&12.85070179\\ \hline
                 500000	&167.5356	&171.6628	&189.0014	&183.3456	&164.9439	&175.29786	&10.40701635\\ \hline
         \end{tabular}
-    \end{table} 
-    
-    
+    \end{table}
+
+
             \begin{table}[]
         \begin{tabular}{|c|c|c|c|c|c|c|c| }
             \hline
             \multicolumn{8}{|c|}{Algoritmo: Quick Sort} \\ \hline
             \multicolumn{4}{|c|}{} & \multicolumn{4}{c|}{Lenguaje: Python} \\ \hline
-              N de Datos &     t1    &  t2         &  t3          &   t4        &    t5     &   Promedio(t)       & desv. s. \\ \hline 
+              N de Datos &     t1    &  t2         &  t3          &   t4        &    t5     &   Promedio(t)       & desv. s. \\ \hline
 100	&0	&0	&0.000998735&	0.000998974&	0	&0.399541855	&0.547095223\\ \hline
 1000	&0.009994268	&0.011993647	&0.016989946	&0.012970448&	0.005999088	&11.58947945	&4.032140823\\ \hline
 2000	&0.029981136	&0.023008108	&0.064962626	&0.033980846	&0.052969933	&40.98052979	&17.40601087\\ \hline
@@ -324,18 +324,23 @@
 300000	&4.930557966	&4.727021456	&4.675037146	&4.993543625	&4.923748016	&4849.981642	&139.882852\\ \hline
 400000	&7.751039982	&6.572371244	&6.236221552	&6.337382078	&6.679156542	&6715.23428	&605.5638658\\ \hline
 500000	&8.079737902	&9.067592859	&8.209435701	&8.917642117	&8.596114874	&8574.104691	&429.946211\\ \hline
-              
+
              \end{tabular}
-    \end{table}          
-              
+    \end{table}
+
     \subsection{HeapSort}
+        \paragraph {}
+        HeapsortHeapsort (Williams, 1964) ordena un vector de n elementos construyendo un heap con los n elementos y extrayéndolos a continuación, uno a uno del heap. El propio vector que almacena a los n elementos se emplea para construir el heap, de modo que heapsort actúa in-situ y sólo requiere un espacio auxiliar de memoria constante. El coste de este algoritmo es O(nlogn)(incluso en caso mejor) si todos los elementos son diferentes.
+        \paragraph {}
+        En la práctica su coste es superior al de quicksort, ya que elfactor constante multiplicativo del términonlognes mayor.
+
             \begin{figure}[h!]
             \centering
             \includegraphics[width=12cm]{img/HeapSort_1.png}
             \caption{Estrategia que sigue algoritmo para ordenar una secuencia S de n elementos}
-            \label{fig:mergesort}
-        \end {figure} 
-        
+            \label{fig:heapsort}
+        \end {figure}
+
             \begin{table}[]
         \begin{tabular}{|c|c|c|c|c|c|c|c| }
             \hline
@@ -365,13 +370,13 @@
 
     \end{tabular}
     \end{table}
-    
+
              \begin{table}[]
         \begin{tabular}{|c|c|c|c|c|c|c|c| }
             \hline
             \multicolumn{8}{|c|}{Algoritmo: Heap Sort} \\ \hline
             \multicolumn{4}{|c|}{} & \multicolumn{4}{c|}{Lenguaje: GO} \\ \hline
-              N de Datos &     t1    &  t2         &  t3          &   t4        &    t5     &   Promedio(t)       & desv. s. \\ \hline       
+              N de Datos &     t1    &  t2         &  t3          &   t4        &    t5     &   Promedio(t)       & desv. s. \\ \hline
                 100	&0.0156	&0	&0	&0	&0	&0.00312	&0.006976532\\ \hline
                 1000	&0	&0	&0.1399	&0.2501	&0.3944	&0.15688	&0.169275447\\ \hline
                 2000	&0.5932	&0	&0.5816	&0.523	&0.5053	&0.44062	&0.249134486\\ \hline
@@ -391,18 +396,18 @@
                 200000	&41.5332	&159.2225	&100.7466	&114.9337	&138.887	&111.0646	&44.85898995\\ \hline
                 300000	&79.1607	&150	&109.679	&108.9505	&96.2503	&108.8081	&26.1448754\\ \hline
                 400000	&127.1079	&135.2571&	137.8239	&158.002&	126.1373&	136.86564	&12.85070179\\ \hline
-                500000	&167.5356	&171.6628&	189.0014	&183.3456	&164.9439	&175.29786&	10.40701635\\ \hline        
+                500000	&167.5356	&171.6628&	189.0014	&183.3456	&164.9439	&175.29786&	10.40701635\\ \hline
         \end{tabular}
     \end{table}
-    
-    
-    
+
+
+
     \begin{table}[]
         \begin{tabular}{|c|c|c|c|c|c|c|c| }
             \hline
             \multicolumn{8}{|c|}{Algoritmo: Heap Sort} \\ \hline
             \multicolumn{4}{|c|}{} & \multicolumn{4}{c|}{Lenguaje: Python} \\ \hline
-              N de Datos &     t1    &  t2         &  t3          &   t4        &    t5     &   Promedio(t)       & desv. s. \\ \hline   
+              N de Datos &     t1    &  t2         &  t3          &   t4        &    t5     &   Promedio(t)       & desv. s. \\ \hline
     100	    &0	            &0	            &0.000998735	&0.000998974	&0	             &0.399541855	 &0.547095223\\ \hline
     1000	&0.009994268	&0.011993647	&0.016989946	&0.012970448	&0.005999088	&11.58947945	 	&4.032140823\\ \hline
     2000	&0.029981136	&0.023008108	&0.064962626	&0.033980846	&0.052969933	&40.98052979	 	&17.40601087\\ \hline
@@ -425,7 +430,7 @@
     500000	&8.079737902	&9.067592859	&8.209435701	&8.917642117	&8.596114874	&8574.104691	 	&429.946211\\ \hline
         \end{tabular}
     \end{table}
-              
+
     \subsection{TreeSort}
     La clasificación de árbol es un algoritmo de clasificación que se basa en la estructura de datos del árbol de búsqueda binaria. Primero crea un árbol de búsqueda binario a partir de los elementos de la lista o matriz de entrada y luego realiza un recorrido en orden en el árbol de búsqueda binario creado para ordenar los elementos.
         \subsubsection{Costo Computacional}
@@ -435,7 +440,7 @@
             \includegraphics[width=12cm]{img/treeSort_1.png}
             \caption{Estrategia que sigue algoritmo para ordenar una secuencia S de n elementos}
             \label{fig:mergesort}
-        \end {figure} 
+        \end {figure}
     \begin{table}[]
         \begin{tabular}{|c|c|c|c|c|c|c|c| }
             \hline
@@ -491,7 +496,7 @@
 400000	&305.4279&	307.92	& 367.4944	 &341.7326	&384.1765	&341.35028	&35.09183418\\ \hline
 500000	&419.8142&	429.1118&	493.0747 &515.5093	&442.0059	&459.90318  & 42.03551579\\ \hline
 
-    
+
        \end{tabular}
    \end{table}
 	%\clearpage
