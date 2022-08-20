@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  20 AUG 2022 06:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  20 AUG 2022 07:07
 entering extended mode
 **./presentacionGrupo2.tex
 (presentacionGrupo2.tex
@@ -921,7 +921,7 @@ LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
 ntacionGrupo2.toc) [2
 
 ]
-<Images/caracteristicas.png, id=120, 607.26875pt x 284.06125pt>
+<Images/caracteristicas.png, id=115, 607.26875pt x 284.06125pt>
 File: Images/caracteristicas.png Graphic file (type png)
 <use Images/caracteristicas.png>
 Package pdftex.def Info: Images/caracteristicas.png  used on input line 202.
@@ -951,7 +951,7 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 225.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 225.
-<Images/quickSort.png, id=146, 295.1025pt x 399.4925pt>
+<Images/quickSort.png, id=141, 295.1025pt x 399.4925pt>
 File: Images/quickSort.png Graphic file (type png)
 <use Images/quickSort.png>
 Package pdftex.def Info: Images/quickSort.png  used on input line 225.
@@ -963,7 +963,7 @@ Overfull \vbox (8.04106pt too high) detected at line 225
 [4
 
  <./Images/quickSort.png>]
-<Images/QuickSort_1.png, id=176, 462.528pt x 345.4506pt>
+<Images/QuickSort_1.png, id=170, 462.528pt x 345.4506pt>
 File: Images/QuickSort_1.png Graphic file (type png)
 <use Images/QuickSort_1.png>
 Package pdftex.def Info: Images/QuickSort_1.png  used on input line 236.
@@ -975,72 +975,78 @@ Overfull \vbox (12.61835pt too high) detected at line 236
 [5
 
  <./Images/QuickSort_1.png>]
-<Images/mergesort.png, id=204, 987.69pt x 735.74875pt>
+<Images/mergesort.png, id=198, 987.69pt x 735.74875pt>
 File: Images/mergesort.png Graphic file (type png)
 <use Images/mergesort.png>
-Package pdftex.def Info: Images/mergesort.png  used on input line 262.
+Package pdftex.def Info: Images/mergesort.png  used on input line 261.
 (pdftex.def)             Requested size: 136.91862pt x 101.9825pt.
-
-Overfull \vbox (28.51569pt too high) detected at line 262
- []
-
-[6
+ [6
 
  <./Images/mergesort.png>]
-<Images/mergeSort_1.png, id=231, 462.528pt x 345.4506pt>
+<Images/mergeSort_1.png, id=226, 462.528pt x 345.4506pt>
 File: Images/mergeSort_1.png Graphic file (type png)
 <use Images/mergeSort_1.png>
-Package pdftex.def Info: Images/mergeSort_1.png  used on input line 270.
+Package pdftex.def Info: Images/mergeSort_1.png  used on input line 269.
 (pdftex.def)             Requested size: 273.83728pt x 204.53096pt.
 
-Overfull \vbox (12.61835pt too high) detected at line 270
+Overfull \vbox (12.61835pt too high) detected at line 269
  []
 
 [7
 
  <./Images/mergeSort_1.png>]
-LaTeX Font Info:    Font shape `OT1/opensans-TLF/bx/n' in size <10.95> not avai
-lable
-(Font)              Font shape `OT1/opensans-TLF/b/n' tried instead on input li
-ne 293.
-LaTeX Font Info:    Font shape `OT1/opensans-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 293.
-LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 293.
+File: Images/mergesort.png Graphic file (type png)
+<use Images/mergesort.png>
+Package pdftex.def Info: Images/mergesort.png  used on input line 291.
+(pdftex.def)             Requested size: 136.91862pt x 101.9825pt.
  [8
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 308.
+<Images/HeapSort_1.png, id=280, 462.528pt x 345.4506pt>
+File: Images/HeapSort_1.png Graphic file (type png)
+<use Images/HeapSort_1.png>
+Package pdftex.def Info: Images/HeapSort_1.png  used on input line 300.
+(pdftex.def)             Requested size: 273.83728pt x 204.53096pt.
 
+Overfull \vbox (12.61835pt too high) detected at line 300
+ []
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1pcr.fd"
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 308.
+[9
 
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omspcr.fd"
-File: omspcr.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 308.
- [9
-
-]
-LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 328.
+ <./Images/HeapSort_1.png>]
+<Images/treesorttwo_1.png, id=307, 530.98375pt x 368.37625pt>
+File: Images/treesorttwo_1.png Graphic file (type png)
+<use Images/treesorttwo_1.png>
+Package pdftex.def Info: Images/treesorttwo_1.png  used on input line 319.
+(pdftex.def)             Requested size: 136.91862pt x 94.98862pt.
  [10
+
+ <./Images/treesorttwo_1.png>]
+<Images/treeSort_1.png, id=334, 462.528pt x 345.4506pt>
+File: Images/treeSort_1.png Graphic file (type png)
+<use Images/treeSort_1.png>
+Package pdftex.def Info: Images/treeSort_1.png  used on input line 328.
+(pdftex.def)             Requested size: 273.83728pt x 204.53096pt.
+
+Overfull \vbox (12.61835pt too high) detected at line 328
+ []
+
+[11
+
+ <./Images/treeSort_1.png>]
+LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 348.
+LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 348.
+ [12
 
  <C:/Users/Ivan Arias/AppData/Roaming/MiKTeX/2.9/tex/latex/beamer/beamericonart
 icle.pdf>]
-[11
-
-]
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 373.
+(Font)              scaled to size 24.88pt on input line 363.
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 373.
- [12
+(Font)              scaled to size 17.28pt on input line 363.
+ [13
 
 ]
 \tf@nav=\write6
@@ -1052,34 +1058,33 @@ LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
 \tf@snm=\write8
 \openout8 = `presentacionGrupo2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 377.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 377.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 367.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
  (presentacionGrupo2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 377.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 377.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 367.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
 Package rerunfilecheck Info: File `presentacionGrupo2.out' has not changed.
-(rerunfilecheck)             Checksum: 13C62D96AD2DA810D3B66FEC8AB18A5D;458.
+(rerunfilecheck)             Checksum: 78CF5838D3951E33C90F7D921206AD07;414.
  ) 
 Here is how much of TeX's memory you used:
- 18155 strings out of 492895
- 349271 string characters out of 3133462
- 418245 words of memory out of 3000000
- 21577 multiletter control sequences out of 15000+200000
- 22293 words of font info for 66 fonts, out of 3000000 for 9000
+ 18104 strings out of 492895
+ 348512 string characters out of 3133462
+ 418242 words of memory out of 3000000
+ 21532 multiletter control sequences out of 15000+200000
+ 21182 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,58p,787b,723s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
-KTeX 2.9/fonts/enc/dvips/opensans/a_n3lhbv.enc}{C:/Program Files/MiKTeX 2.9/fon
-ts/enc/dvips/opensans/a_iz27ck.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/asc
-ender/opensans/OpenSans-Bold.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ascen
-der/opensans/OpenSans-Italic.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ascen
-der/opensans/OpenSans-Regular.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/
-ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on presentacionGrupo2.pdf (12 pages, 365492 bytes).
+KTeX 2.9/fonts/enc/dvips/opensans/a_iz27ck.enc}{C:/Program Files/MiKTeX 2.9/fon
+ts/enc/dvips/opensans/a_n3lhbv.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/asc
+ender/opensans/OpenSans-Italic.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/asc
+ender/opensans/OpenSans-Regular.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvet
+ic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb
+>
+Output written on presentacionGrupo2.pdf (13 pages, 440689 bytes).
 PDF statistics:
- 433 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 450 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

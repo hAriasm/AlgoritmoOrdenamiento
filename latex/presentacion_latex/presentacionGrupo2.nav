@@ -24,26 +24,24 @@
 \headcommand {\beamer@framepages {6}{6}}
 \headcommand {\slideentry {2}{2}{2}{7/7}{Merge Sort}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\beamer@sectionpages {4}{7}}
 \headcommand {\beamer@subsectionpages {6}{7}}
-\headcommand {\sectionentry {3}{Table and Figure Examples}{8}{Table and Figure Examples}{0}}
-\headcommand {\beamer@subsectionpages {8}{7}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{8}{Table}}
-\headcommand {\slideentry {3}{1}{1}{8/8}{Table}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{8}{Heap Sort}}
+\headcommand {\slideentry {2}{3}{1}{8/8}{Heap Sort}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\beamer@sectionpages {8}{8}}
-\headcommand {\beamer@subsectionpages {8}{8}}
-\headcommand {\sectionentry {4}{Referencing}{9}{Referencing}{0}}
-\headcommand {\slideentry {4}{0}{1}{9/9}{}{0}}
+\headcommand {\slideentry {2}{3}{2}{9/9}{Heap Sort}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\slideentry {4}{0}{2}{10/10}{}{0}}
+\headcommand {\beamer@subsectionpages {8}{9}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{10}{Tree Sort}}
+\headcommand {\slideentry {2}{4}{1}{10/10}{Tree Sort}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {4}{0}{3}{11/11}{}{0}}
+\headcommand {\slideentry {2}{4}{2}{11/11}{Tree Sort}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\slideentry {4}{0}{4}{12/12}{}{0}}
+\headcommand {\slideentry {2}{4}{3}{12/12}{Tree Sort}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\beamer@partpages {1}{12}}
-\headcommand {\beamer@subsectionpages {9}{12}}
-\headcommand {\beamer@sectionpages {9}{12}}
-\headcommand {\beamer@documentpages {12}}
-\headcommand {\gdef \inserttotalframenumber {12}}
+\headcommand {\slideentry {2}{4}{4}{13/13}{Tree Sort}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@partpages {1}{13}}
+\headcommand {\beamer@subsectionpages {10}{13}}
+\headcommand {\beamer@sectionpages {4}{13}}
+\headcommand {\beamer@documentpages {13}}
+\headcommand {\gdef \inserttotalframenumber {13}}

@@ -3,6 +3,5 @@
 \beamer@sectionintoc {2}{Algoritmos}{4}{0}{2}
 \beamer@subsectionintoc {2}{1}{QUICK SORT}{4}{0}{2}
 \beamer@subsectionintoc {2}{2}{Merge Sort}{6}{0}{2}
-\beamer@sectionintoc {3}{Table and Figure Examples}{8}{0}{3}
-\beamer@subsectionintoc {3}{1}{Table}{8}{0}{3}
-\beamer@sectionintoc {4}{Referencing}{9}{0}{4}
+\beamer@subsectionintoc {2}{3}{Heap Sort}{8}{0}{2}
+\beamer@subsectionintoc {2}{4}{Tree Sort}{10}{0}{2}

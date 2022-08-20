@@ -208,7 +208,7 @@ jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optiona
 	\frametitle{QUICK SORT}
     \begin{columns}[t] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 		\begin{column}{0.45\textwidth} % Left column width
-			 
+			
         Quicksort ha sido históricamente el algoritmo genérico de ordenamiento más rápido conocido en la práctica. Es un algoritmo recursivo del tipo "divide y vencerás", y fácil de implementar.
 
         Costo computacional: Caso promedio tarda N x log N, en el peor caso puede llegar a tardar $N^2$.
@@ -228,7 +228,7 @@ jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optiona
 
 
 \begin{frame}
-	\frametitle{Resultados} 
+	\frametitle{Resultados}
 	\begin{figure}
 		\includegraphics[width=0.8\linewidth]{QuickSort_1.png}
 		\caption{Quick Sort}
@@ -243,13 +243,12 @@ jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optiona
 	\frametitle{MERGE SORT}
     \begin{columns}[t] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 		\begin{column}{0.45\textwidth} % Left column width
-			 \begin{itemize}
-      \item Fue desarrollado por John Von Neuman en 1945.
-      \item Es un algoritmo recursivo bastante eficiente para ordenar un array, que tiene un orden de complejidad 0(n.log(n))
-      \item Usa la técnica de divide y vencerás, la cual consiste en dividir el problema en sub problemas del mismo tipo que a su vez se dividirán hasta que sean suficientemente pequeños o triviales
-      \item Costo computacional: T(N) = N * log2 N  
+			 \begin{itemize} 
+              \item Es un algoritmo recursivo bastante eficiente para ordenar un array.
+        \item Usa la técnica de divide y vencerás, la cual consiste en dividir el problema en sub problemas del mismo tipo que a su vez se dividirán hasta que sean suficientemente pequeños o triviales
+        \item Costo computacional: T(N) = Nlog2 N
     \end{itemize}
-        
+
 		\end{column}		
 		\begin{column}{0.5\textwidth} % Right column width
 			\begin{figure}
@@ -262,7 +261,7 @@ jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optiona
 \end{frame}
 \begin{frame}
 	\frametitle{Resultados}
-	 
+	
 	\begin{figure}
 		\includegraphics[width=0.8\linewidth]{mergeSort_1.png}
 		\caption{Merge Sort}
@@ -270,43 +269,64 @@ jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optiona
 \end{frame}
 %------------------------------------------------
 
-\section{Table and Figure Examples}
-
-\subsection{Table}
+\subsection{Heap Sort}
 
 \begin{frame}
-	\frametitle{Table}
-	\framesubtitle{Subtitle} % Optional subtitle
-	
-	\begin{table}
-		\begin{tabular}{l l l}
-			\toprule
-			\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
-			\midrule
-			Treatment 1 & 0.0003262 & 0.562 \\
-			Treatment 2 & 0.0015681 & 0.910 \\
-			Treatment 3 & 0.0009271 & 0.296 \\
-			\bottomrule
-		\end{tabular}
-		\caption{Table caption}
-	\end{table}
+	\frametitle{HEAP SORT}
+    \begin{columns}[t] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+		\begin{column}{0.45\textwidth} % Left column width
+			 HeapsortHeapsort (Williams, 1964)
+
+        En la práctica su coste es superior al de quicksort, ya que el factor constante multiplicativo del término nlogn es mayor.
+
+		\end{column}		
+		\begin{column}{0.5\textwidth} % Right column width
+			\begin{figure}
+		      \includegraphics[width=0.8\linewidth]{mergesort.png}
+		      \caption{Merge Sort}
+	   \end{figure}
+		
+		\end{column}
+	\end{columns}
 \end{frame}
 
-
+\begin{frame}
+	\frametitle{Resultados}
+	
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{HeapSort_1.png}
+		\caption{Heap Sort}
+	\end{figure}
+\end{frame}
 %------------------------------------------------
 
-\section{Referencing}
+\subsection{Tree Sort}
 
 \begin{frame}
-	\frametitle{Citing References}
-	
-	An example of the \texttt{\textbackslash cite} command to cite within the presentation:
-	
-	\bigskip % Vertical whitespace
-	
-	This statement requires citation \cite{p1,p2}.
+	\frametitle{TREE SORT}
+    \begin{columns}[t] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+		\begin{column}{0.45\textwidth} % Left column width
+			 La clasificación de árbol es un algoritmo de clasificación que se basa en la estructura de datos del árbol de búsqueda binaria.
+		\end{column}		
+		\begin{column}{0.5\textwidth} % Right column width
+			\begin{figure}
+		      \includegraphics[width=0.8\linewidth]{treesorttwo_1.png}
+		      \caption{Tree Sort}
+	   \end{figure}
+		
+		\end{column}
+	\end{columns}
 \end{frame}
 
+\begin{frame}
+	\frametitle{Resultados}
+	
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{treeSort_1.png}
+		\caption{Tree Sort}
+	\end{figure}
+\end{frame}
+ 
 %------------------------------------------------
 
 \begin{frame} % Use [allowframebreaks] to allow automatic splitting across slides if the content is too long
@@ -326,37 +346,7 @@ jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optiona
 			\newblock \emph{Journal Name} 12(3), 45 -- 678.
 	\end{thebibliography}
 \end{frame}
-
-%----------------------------------------------------------------------------------------
-%	ACKNOWLEDGMENTS SLIDE
-%----------------------------------------------------------------------------------------
-
-\begin{frame}
-	\frametitle{|Acknowledgements}
-	
-	\begin{columns}[t] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
-		\begin{column}{0.45\textwidth} % Left column width
-			\textbf{Smith Lab}
-			\begin{itemize}
-				\item Alice Smith
-				\item Devon Brown
-			\end{itemize}
-			\textbf{Cook Lab}
-			\begin{itemize}
-				\item Margaret
-				\item Jennifer
-				\item Yuan
-			\end{itemize}
-		\end{column}		
-		\begin{column}{0.5\textwidth} % Right column width
-			\textbf{Funding}
-			\begin{itemize}
-				\item British Royal Navy
-				\item Norwegian Government
-			\end{itemize}
-		\end{column}
-	\end{columns}
-\end{frame}
+ 
 
 %----------------------------------------------------------------------------------------
 %	CLOSING SLIDE
@@ -364,11 +354,11 @@ jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optiona
 
 \begin{frame}[plain] % The optional argument 'plain' hides the headline and footline
 	\begin{center}
-		{\Huge The End}
+		{\Huge Fin}
 		
 		\bigskip\bigskip % Vertical whitespace
 		
-		{\LARGE Questions? Comments?}
+		{\LARGE Preguntas? Comentarios?}
 	\end{center}
 \end{frame}
 
