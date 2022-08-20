@@ -19,29 +19,31 @@
 \headcommand {\slideentry {2}{1}{2}{5/5}{QUICK SORT}{0}}
 \headcommand {\beamer@framepages {5}{5}}
 \headcommand {\beamer@subsectionpages {4}{5}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{6}{Columns}}
-\headcommand {\slideentry {2}{2}{1}{6/6}{Columns}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{6}{Merge Sort}}
+\headcommand {\slideentry {2}{2}{1}{6/6}{Merge Sort}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\beamer@sectionpages {4}{6}}
-\headcommand {\beamer@subsectionpages {6}{6}}
-\headcommand {\sectionentry {3}{Table and Figure Examples}{7}{Table and Figure Examples}{0}}
-\headcommand {\beamer@subsectionpages {7}{6}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{7}{Table}}
-\headcommand {\slideentry {3}{1}{1}{7/7}{Table}{0}}
+\headcommand {\slideentry {2}{2}{2}{7/7}{Merge Sort}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\beamer@sectionpages {7}{7}}
-\headcommand {\beamer@subsectionpages {7}{7}}
-\headcommand {\sectionentry {4}{Referencing}{8}{Referencing}{0}}
-\headcommand {\slideentry {4}{0}{1}{8/8}{}{0}}
+\headcommand {\beamer@sectionpages {4}{7}}
+\headcommand {\beamer@subsectionpages {6}{7}}
+\headcommand {\sectionentry {3}{Table and Figure Examples}{8}{Table and Figure Examples}{0}}
+\headcommand {\beamer@subsectionpages {8}{7}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{8}{Table}}
+\headcommand {\slideentry {3}{1}{1}{8/8}{Table}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\slideentry {4}{0}{2}{9/9}{}{0}}
+\headcommand {\beamer@sectionpages {8}{8}}
+\headcommand {\beamer@subsectionpages {8}{8}}
+\headcommand {\sectionentry {4}{Referencing}{9}{Referencing}{0}}
+\headcommand {\slideentry {4}{0}{1}{9/9}{}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\slideentry {4}{0}{3}{10/10}{}{0}}
+\headcommand {\slideentry {4}{0}{2}{10/10}{}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {4}{0}{4}{11/11}{}{0}}
+\headcommand {\slideentry {4}{0}{3}{11/11}{}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@partpages {1}{11}}
-\headcommand {\beamer@subsectionpages {8}{11}}
-\headcommand {\beamer@sectionpages {8}{11}}
-\headcommand {\beamer@documentpages {11}}
-\headcommand {\gdef \inserttotalframenumber {11}}
+\headcommand {\slideentry {4}{0}{4}{12/12}{}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\beamer@partpages {1}{12}}
+\headcommand {\beamer@subsectionpages {9}{12}}
+\headcommand {\beamer@sectionpages {9}{12}}
+\headcommand {\beamer@documentpages {12}}
+\headcommand {\gdef \inserttotalframenumber {12}}

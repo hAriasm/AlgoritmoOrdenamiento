@@ -2,7 +2,7 @@
 \beamer@subsectionintoc {1}{1}{Equipo usado para pruebas}{3}{0}{1}
 \beamer@sectionintoc {2}{Algoritmos}{4}{0}{2}
 \beamer@subsectionintoc {2}{1}{QUICK SORT}{4}{0}{2}
-\beamer@subsectionintoc {2}{2}{Columns}{6}{0}{2}
-\beamer@sectionintoc {3}{Table and Figure Examples}{7}{0}{3}
-\beamer@subsectionintoc {3}{1}{Table}{7}{0}{3}
-\beamer@sectionintoc {4}{Referencing}{8}{0}{4}
+\beamer@subsectionintoc {2}{2}{Merge Sort}{6}{0}{2}
+\beamer@sectionintoc {3}{Table and Figure Examples}{8}{0}{3}
+\beamer@subsectionintoc {3}{1}{Table}{8}{0}{3}
+\beamer@sectionintoc {4}{Referencing}{9}{0}{4}

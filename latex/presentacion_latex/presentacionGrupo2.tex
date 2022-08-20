@@ -193,7 +193,7 @@ jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optiona
 	\frametitle{Características del equipo}
 	
 	Se uso un único equipo con la misma data para todas las pruebas.
- 
+
 		\begin{figure}
 		\includegraphics[width=0.8\linewidth]{caracteristicas.png}
 		\caption{Características del equipo de pruebas}
@@ -202,15 +202,15 @@ jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optiona
 \end{frame}
 
 %------------------------------------------------
-\section{Algoritmos} 
+\section{Algoritmos}
 \subsection{QUICK SORT}
 \begin{frame}
 	\frametitle{QUICK SORT}
     \begin{columns}[t] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
 		\begin{column}{0.45\textwidth} % Left column width
-			\textbf{Smith Lab} 
+			 
         Quicksort ha sido históricamente el algoritmo genérico de ordenamiento más rápido conocido en la práctica. Es un algoritmo recursivo del tipo "divide y vencerás", y fácil de implementar.
-        
+
         Costo computacional: Caso promedio tarda N x log N, en el peor caso puede llegar a tardar $N^2$.
 
 		\end{column}		
@@ -219,49 +219,55 @@ jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optiona
 		      \includegraphics[width=0.8\linewidth]{quickSort.png}
 		      \caption{Quick Sort}
 	   \end{figure}
-		 
+		
 		\end{column}
 	\end{columns}
 \end{frame}
 
 %------------------------------------------------
 
- 
+
+\begin{frame}
+	\frametitle{Resultados} 
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{QuickSort_1.png}
+		\caption{Quick Sort}
+	\end{figure}
+\end{frame}
+
+%------------------------------------------------
+
+\subsection{Merge Sort}
+
+\begin{frame}
+	\frametitle{MERGE SORT}
+    \begin{columns}[t] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+		\begin{column}{0.45\textwidth} % Left column width
+			 \begin{itemize}
+      \item Fue desarrollado por John Von Neuman en 1945.
+      \item Es un algoritmo recursivo bastante eficiente para ordenar un array, que tiene un orden de complejidad 0(n.log(n))
+      \item Usa la técnica de divide y vencerás, la cual consiste en dividir el problema en sub problemas del mismo tipo que a su vez se dividirán hasta que sean suficientemente pequeños o triviales
+      \item Costo computacional: T(N) = N * log2 N  
+    \end{itemize}
+        
+		\end{column}		
+		\begin{column}{0.5\textwidth} % Right column width
+			\begin{figure}
+		      \includegraphics[width=0.8\linewidth]{mergesort.png}
+		      \caption{Merge Sort}
+	   \end{figure}
+		
+		\end{column}
+	\end{columns}
+\end{frame}
 \begin{frame}
 	\frametitle{Resultados}
-	
-	\begin{block}{Data de prueba}
-    Resultados:  Tiempo de ejecución para diferentes tamaños de entrada. 	
-    \end{block}
+	 
 	\begin{figure}
-		\includegraphics[width=0.5\linewidth]{QuickSort_1.png}
-		\caption{Quick Sort}
-	\end{figure} 
+		\includegraphics[width=0.8\linewidth]{mergeSort_1.png}
+		\caption{Merge Sort}
+	\end{figure}
 \end{frame}
-
-%------------------------------------------------
-
-\subsection{Columns}
-
-\begin{frame}
-	\frametitle{Multiple Columns}
-	\framesubtitle{Subtitle} % Optional subtitle
-	
-	\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
-		\begin{column}{0.45\textwidth} % Left column width
-			\textbf{Heading}
-			\begin{enumerate}
-				\item Statement
-				\item Explanation
-				\item Example
-			\end{enumerate}
-		\end{column}
-		\begin{column}{0.5\textwidth} % Right column width
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
-		\end{column}
-	\end{columns}
-\end{frame}
-
 %------------------------------------------------
 
 \section{Table and Figure Examples}
@@ -286,7 +292,7 @@ jperezma@unsa.edu.pe \and  hariasm@unsa.edu.pe}} % Your institution, the optiona
 	\end{table}
 \end{frame}
 
-    
+
 %------------------------------------------------
 
 \section{Referencing}
