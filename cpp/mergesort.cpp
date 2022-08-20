@@ -1,9 +1,15 @@
+//------------------------------
+// LIBRERIAS
+//------------------------------
 #include <iostream>
 #include <vector>
 using namespace std;
 #include <chrono>
 #include <bits/stdc++.h>
 
+//-------------------------------------
+// ALGORITMO DE ORDENAMIENTO MERGESORT
+//-------------------------------------
 void merge(vector<int>&arreglo,int inicio, int mitad, int final){
     int i,j,k;
     int elementosIzq = mitad - inicio + 1;
@@ -64,7 +70,9 @@ void imprimirArreglo(vector<int>arreglo){
     cout << endl;
 }
 
-//---------------------------------------------------------------
+//----------------------------------------------------
+// ALGORITMO DE LECTURA DE ARCHIVO .TXT CON "N" DATOS
+//----------------------------------------------------
 
 bool readDataFile(vector<int>&arr, int N, string dataFileName)
 {
@@ -72,6 +80,7 @@ bool readDataFile(vector<int>&arr, int N, string dataFileName)
 	int number;
 
 	ifstream input_file(filename);
+    
 	if (!input_file.is_open())
 	{
 		cerr << "Could not open the file - '"
@@ -90,7 +99,11 @@ bool readDataFile(vector<int>&arr, int N, string dataFileName)
 	return true;
 }
 
-// Driver code
+//------------------------------
+// EJECUCION DEL PROGRAMA 
+//------------------------------
+
+// LLAMADO A PROGRAMA DE LECTURA DE ARCHIVO
 int main(int argc, char **argv) {
 
     int N = atoi(argv[1]);
@@ -101,15 +114,18 @@ int main(int argc, char **argv) {
 		return EXIT_FAILURE;
 	  }
 
-   // imprimirArreglo(arr);
-    
+// INICIO DE TEMPORIZADOR 
    auto begin = chrono::high_resolution_clock::now();
+
+// EJECUCION DE PROGRAMA DE ORDENAMIENTO
     mergeSort(arr,0,arr.size()-1);
     auto end = chrono::high_resolution_clock::now();
 	  double elapsed = chrono::duration_cast<std::chrono::nanoseconds>(end - begin).count();
-
 	  elapsed *= 1e-6;
+// FIN DE TEMPORIZADOR
+
+// IMPRESION DE TIEMPO DE EJECUCION DE PROGRAMA DE ORDENAMIENTO      
      cout << "Tiempo total: " << fixed << elapsed << setprecision(9);
-    //imprimirArreglo(arr);
+
     return 0;
 }
